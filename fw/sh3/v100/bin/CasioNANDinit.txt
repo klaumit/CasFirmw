@@ -1,0 +1,2885 @@
+----------------------------------------------------------------
+File offset: 00000000h
+Data begin
+----------------------------------------------------------------
+0000h: 43 41 53 49 4F 50 56 4F 53 32 30 30 55 AA 02 00 	CASIOPVOS200UЊ..
+0010h: 00 00 20 00 00 00 1D 80 00 00 00 00 00 00 00 04 	.. ............
+----------------------------------------------------------------
+File offset: 00000000h
+PV OS header
+----------------------------------------------------------------
+Checksum: BA2Eh
+0000h: PVOS signature		CASIOPVOS200UЊ
+000Ch: Syncword			55AAh
+000Eh: Bytes per sector?	0200h
+0010h: Allocated sectors?	00002000h, 00400000h
+0014h: OS image length?		00001D80h, 003B0000h
+0018h: First boot start?	00000000h, 00000000h
+001Ch: Second boot start?	00000004h, 00000800h
+0020h: Root directory start	00000420h, 00084000h
+0024h: Some directory start?	00000440h, 00088000h
+0028h: Root directory length	00000020h, 00004000h
+002Ch: Some directory length?	00000020h, 00004000h
+0030h: ?			00000400h, 00080000h
+0034h: OS load address?		8C024800h, 00004A00h
+0038h: OS start address?	8C024800h, 00004A00h
+003Ch: ?			00001E80h, 003D0000h
+0040h: ?			00000180h, 00030000h
+0044h: ?			00000080h, 00010000h
+0048h: Some signature?		G502
+01FEh: Checksum			BA2Eh
+----------------------------------------------------------------
+File offset: 00000040h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 01 80 00 00 00 80 47 35 30 32 FF FF FF FF 	......G502џџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000001F0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF BA 2E 	џџџџџџџџџџџџџџК.
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000001F0h
+Data end
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF BA 2E 	џџџџџџџџџџџџџџК.
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00000800h
+Data begin
+----------------------------------------------------------------
+0000h: 43 41 53 49 4F 50 56 4F 53 32 30 30 55 AA 02 00 	CASIOPVOS200UЊ..
+0010h: 00 00 20 00 00 00 1D 80 00 00 00 00 00 00 00 04 	.. ............
+----------------------------------------------------------------
+File offset: 00000800h
+PV OS header
+----------------------------------------------------------------
+Checksum: BA2Eh
+0000h: PVOS signature		CASIOPVOS200UЊ
+000Ch: Syncword			55AAh
+000Eh: Bytes per sector?	0200h
+0010h: Allocated sectors?	00002000h, 00400000h
+0014h: OS image length?		00001D80h, 003B0000h
+0018h: First boot start?	00000000h, 00000000h
+001Ch: Second boot start?	00000004h, 00000800h
+0020h: Root directory start	00000420h, 00084000h
+0024h: Some directory start?	00000440h, 00088000h
+0028h: Root directory length	00000020h, 00004000h
+002Ch: Some directory length?	00000020h, 00004000h
+0030h: ?			00000400h, 00080000h
+0034h: OS load address?		8C024800h, 00004A00h
+0038h: OS start address?	8C024800h, 00004A00h
+003Ch: ?			00001E80h, 003D0000h
+0040h: ?			00000180h, 00030000h
+0044h: ?			00000080h, 00010000h
+0048h: Some signature?		G502
+01FEh: Checksum			BA2Eh
+----------------------------------------------------------------
+File offset: 00000840h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 01 80 00 00 00 80 47 35 30 32 FF FF FF FF 	......G502џџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000009F0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF BA 2E 	џџџџџџџџџџџџџџК.
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000009F0h
+Data end
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF BA 2E 	џџџџџџџџџџџџџџК.
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00001000h
+Data begin
+----------------------------------------------------------------
+0000h: 00 00 00 01 C0 00 10 00 00 00 00 04 FF FF FF FF 	....Р.......џџџџ
+0010h: 00 00 00 01 C0 00 10 00 00 00 00 04 FF FF FF FF 	....Р.......џџџџ
+----------------------------------------------------------------
+File offset: 00001038h
+PV OS header
+----------------------------------------------------------------
+Checksum: DB34h
+0000h: PVOS signature		CASIOPVOS200
+000Ch: This section's length?	0005h, 00000A00h
+000Eh: ?			E000h
+0010h: ?			00000000h
+0014h: ?			FFFFFFFFh
+0018h: Some signature?		G502
+001Ch: Creation year		2002
+001Eh:  - month			09
+001Fh:  - day			05
+0020h:  - hour			14
+0021h:  - minute		25
+0022h:  - second		48
+0023h: ?			00
+0024h: Version			0100h, 001.000
+0026h: ?			0000h
+0028h: ?			021BA48Bh
+01FEh: Checksum			DB34h
+----------------------------------------------------------------
+File offset: 00001060h
+Data end
+----------------------------------------------------------------
+0000h: 02 1B A4 8B FF FF FF FF FF FF FF FF FF FF FF FF 	..Єџџџџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00001230h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF DB 34 D2 02 40 08 00 2E 40 2B 	џџџџџџл4в.@...@+
+0010h: 00 09 00 00 8C 07 CF AC D2 02 40 08 00 2E 40 2B 	.....ЯЌв.@...@+
+----------------------------------------------------------------
+File offset: 00001330h
+Data end
+----------------------------------------------------------------
+0000h: 00 09 00 00 8C 08 0D 10 FF FF FF FF FF FF FF FF 	.......џџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00001A30h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF D0 01 40 2B 00 09 00 00 	џџџџџџџџа.@+....
+0010h: 8C 02 4F 74 4F 33 4F 43 4F 22 4F F3 4F E3 4F D3 	.OtO3OCO"OѓOуOг
+----------------------------------------------------------------
+File offset: 00004200h
+BIOS vectors
+----------------------------------------------------------------
+000Ch: Function's table 00	39AC7B14h, 00000000h
+001Ch: Function's table 01	AF9E0009h, 239C0209h
+002Ch: Function's table 02	31A08BF8h, 00000000h
+003Ch: Function's table 03	FFE40000h, 73E20200h
+004Ch: Function's table 04	01740000h, 00000000h
+005Ch: Function's table 05	E06400DEh, 546202DEh
+006Ch: Function's table 06	60904011h, 00000000h
+007Ch: Function's table 07	4F26000Bh, 00000000h
+008Ch: Function's table 08	4F227804h, 00000000h
+009Ch: Function's table 09	DB0D8580h, 4F0B8780h
+00ACh: Function's table 0A	88F1893Bh, 00000000h
+00BCh: Function's table 0B	88F78963h, 00000000h
+00CCh: Function's table 0C	00000000h, 00000000h
+00DCh: Function's table 0D	00098581h, 00000000h
+00ECh: Function's table 0E	E31C0000h, 571A0200h
+00FCh: Function's table 0F	E104D002h, 5502D202h
+----------------------------------------------------------------
+File offset: 0000B070h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 00 26 45 4E 49 FF FF FF FF FF FF FF FF 	....&ENIџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 0000B090h
+Data begin
+----------------------------------------------------------------
+0000h: 40 00 10 E0 00 00 00 00 00 30 00 01 00 10 00 20 	@..р.....0..... 
+0010h: 00 20 00 10 00 10 00 10 00 20 00 04 00 04 00 00 	. ....... ......
+----------------------------------------------------------------
+File offset: 0000B150h
+Data end
+----------------------------------------------------------------
+0000h: 8C 09 A0 00 FF FF FF FF FF FF FF FF FF FF FF FF 	. .џџџџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 0000B170h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF FF 8C 09 C4 F8 	џџџџџџџџџџџџ.Фј
+0010h: 00 00 00 00 00 02 00 00 00 00 10 00 00 00 20 00 	.............. .
+----------------------------------------------------------------
+File offset: 000567F4h
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		                
+0020h: ?			00000000h
+0024h: ?			00000000h
+0028h: Some flags?		00000000h
+002Ch: Install program		8C02F294h, 0000F494h
+0030h: Uninstall program	8C02F298h, 0000F498h
+0034h: Application entry	8C02EF90h, 0000F190h
+0038h: Driver entry		00000000h, 00000000h
+003Ch: UNICODE name		ALARM TASK
+----------------------------------------------------------------
+File offset: 000569B4h
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		                
+0020h: ?			00000000h
+0024h: ?			00000000h
+0028h: Some flags?		00000000h
+002Ch: Install program		8C030458h, 00010658h
+0030h: Uninstall program	8C03045Ch, 0001065Ch
+0034h: Application entry	8C030378h, 00010578h
+0038h: Driver entry		00000000h, 00000000h
+003Ch: UNICODE name		ALART TASK
+----------------------------------------------------------------
+File offset: 00057068h
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		drv0            џџџџ
+0020h: ?			FFFFFFFFh
+0024h: ?			00000000h
+0028h: Some flags?		40000012h
+002Ch: Install program		8C0407B8h, 000209B8h
+0030h: Uninstall program	8C0407BCh, 000209BCh
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		8C04078Eh, 0002098Eh
+003Ch: UNICODE name		DUMMY FILESYS
+----------------------------------------------------------------
+File offset: 000589D0h
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		ExtKeyDriver    џџџџ
+0020h: ?			FFFFFFFFh
+0024h: ?			00000000h
+0028h: Some flags?		40000011h
+002Ch: Install program		8C048AD4h, 00028CD4h
+0030h: Uninstall program	8C048AD8h, 00028CD8h
+0034h: Application entry	8C048A98h, 00028C98h
+0038h: Driver entry		8C048BCCh, 00028DCCh
+003Ch: UNICODE name		SYSTEM EXTKEY
+----------------------------------------------------------------
+File offset: 00059EE0h
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		                
+0020h: ?			00000000h
+0024h: ?			00000000h
+0028h: Some flags?		00000000h
+002Ch: Install program		8C05B928h, 0003BB28h
+0030h: Uninstall program	8C05B92Ch, 0003BB2Ch
+0034h: Application entry	8C05BA08h, 0003BC08h
+0038h: Driver entry		00000000h, 00000000h
+003Ch: UNICODE name		DMENU PROGRAM
+----------------------------------------------------------------
+File offset: 0005A1B8h
+PV OS header
+----------------------------------------------------------------
+Checksum: 8755h
+0000h: 43 41 53 49 4F 50 56 4F 53 32 30 30 00 50 56 4F 	CASIOPVOS200.PVO
+0010h: 53 32 30 2D 56 41 4C 49 44 41 52 45 41 00 00 00 	S20-VALIDAREA...
+0020h: 00 13 00 14 00 15 00 16 00 12 00 10 8C 06 04 34 	..............4
+0030h: 8C 06 05 46 8C 06 06 CC 8C 06 07 5E 8C 06 08 4E 	..F..Ь..^..N
+----------------------------------------------------------------
+File offset: 0005A1C5h
+0000h: 50 56 4F 53 32 30 2D 56 41 4C 49 44 41 52 45 41 	PVOS20-VALIDAREA
+0010h: 00 00 00 00 13 00 14 00 15 00 16 00 12 00 10 8C 	...............
+0020h: 06 04 34 8C 06 05 46 8C 06 06 CC 8C 06 07 5E 8C 	..4..F..Ь..^
+0030h: 06 08 4E 8C 06 08 D4 8C 06 09 2C 8C 06 0A 26 8C 	..N..д..,..&
+----------------------------------------------------------------
+File offset: 0005B3BCh
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		sys_sim         џџџџ
+0020h: ?			FFFFFFFFh
+0024h: ?			00000000h
+0028h: Some flags?		40000012h
+002Ch: Install program		8C067760h, 00047960h
+0030h: Uninstall program	8C067764h, 00047964h
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		8C0677A2h, 000479A2h
+003Ch: UNICODE name		SIM VIRTUALSYS
+----------------------------------------------------------------
+File offset: 0005B45Ch
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		com             џџџџ
+0020h: ?			FFFFFFFFh
+0024h: ?			00000003h
+0028h: Some flags?		00000004h
+002Ch: Install program		8C067844h, 00047A44h
+0030h: Uninstall program	8C067848h, 00047A48h
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		8C06789Ch, 00047A9Ch
+003Ch: UNICODE name		Serial_drV
+----------------------------------------------------------------
+File offset: 0005B8C8h
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		sys0            џџџџ
+0020h: ?			FFFFFFFFh
+0024h: ?			00000000h
+0028h: Some flags?		40000012h
+002Ch: Install program		8C06CDA6h, 0004CFA6h
+0030h: Uninstall program	8C06CDAAh, 0004CFAAh
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		8C06CDE8h, 0004CFE8h
+003Ch: UNICODE name		SYSTEM FILESYS
+----------------------------------------------------------------
+File offset: 0005DFCCh
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		com             џџџџ
+0020h: ?			FFFFFFFFh
+0024h: ?			00000001h
+0028h: Some flags?		00000004h
+002Ch: Install program		8C07671Ch, 0005691Ch
+0030h: Uninstall program	8C076720h, 00056920h
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		8C076728h, 00056928h
+003Ch: UNICODE name		USB_drV
+----------------------------------------------------------------
+File offset: 0005E360h
+Data end
+----------------------------------------------------------------
+0000h: 47 00 35 00 30 00 32 00 FF FF FF FF FF FF FF FF 	G.5.0.2.џџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 0005F010h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF FF 00 00 00 01 	џџџџџџџџџџџџ....
+0010h: C0 00 10 00 00 00 00 04 FF FF FF FF 00 00 00 01 	Р.......џџџџ....
+----------------------------------------------------------------
+File offset: 0005F244h
+PV OS Root directory
+----------------------------------------------------------------
+0000h: Signature		PVOS20-VALIDAREA
+
+0010h: Directory ID		0000h
+0012h: Placed in directory	FFFFh, Unknown
+0014h: File name		programs
+0034h: Start sector, offset	00000000h, 00000000h
+0038h: Allocated sectors	00000000h
+003Ch: Length in bytes		00000000h
+0040h: Creation year		2002
+0042h:  - month			09
+0043h:  - day			11
+0044h:  - hour			11
+0045h:  - minute		39
+0046h:  - second		47
+0047h: ?			00
+0048h: Flags?			80000316h
+004Ch: ?			00000000h
+
+0050h: Directory ID		0001h
+0052h: Placed in directory	FFFFh, Unknown
+0054h: File name		drivers
+0074h: Start sector, offset	00000000h, 00000000h
+0078h: Allocated sectors	00000000h
+007Ch: Length in bytes		00000000h
+0080h: Creation year		2002
+0082h:  - month			09
+0083h:  - day			11
+0084h:  - hour			11
+0085h:  - minute		39
+0086h:  - second		47
+0087h: ?			00
+0088h: Flags?			80000316h
+008Ch: ?			00000000h
+
+0090h: Directory ID		0002h
+0092h: Placed in directory	FFFFh, Unknown
+0094h: File name		resources
+00B4h: Start sector, offset	00000000h, 00000000h
+00B8h: Allocated sectors	00000000h
+00BCh: Length in bytes		00000000h
+00C0h: Creation year		2002
+00C2h:  - month			09
+00C3h:  - day			11
+00C4h:  - hour			11
+00C5h:  - minute		39
+00C6h:  - second		47
+00C7h: ?			00
+00C8h: Flags?			80000316h
+00CCh: ?			00000000h
+
+00D0h: Directory ID		0003h
+00D2h: Placed in directory	FFFFh, Unknown
+00D4h: File name		sys_bin
+00F4h: Start sector, offset	00000000h, 00000000h
+00F8h: Allocated sectors	00000000h
+00FCh: Length in bytes		00000000h
+0100h: Creation year		2002
+0102h:  - month			09
+0103h:  - day			11
+0104h:  - hour			11
+0105h:  - minute		39
+0106h:  - second		47
+0107h: ?			00
+0108h: Flags?			80000316h
+010Ch: ?			00000000h
+
+0110h: Directory ID		FFFFh
+0112h: Placed in directory	0002h, resources
+0114h: File name		font00.res
+0134h: Start sector, offset	00000460h, 0008C000h
+0138h: Allocated sectors	00000040h
+013Ch: Length in bytes		00000C82h
+0140h: Creation year		2002
+0142h:  - month			06
+0143h:  - day			21
+0144h:  - hour			10
+0145h:  - minute		04
+0146h:  - second		46
+0147h: ?			00
+0148h: Flags?			0000010Ch
+014Ch: ?			00000000h
+
+0150h: Directory ID		FFFFh
+0152h: Placed in directory	0002h, resources
+0154h: File name		font01.res
+0174h: Start sector, offset	000004A0h, 00094000h
+0178h: Allocated sectors	00000040h
+017Ch: Length in bytes		00000CCAh
+0180h: Creation year		2002
+0182h:  - month			06
+0183h:  - day			21
+0184h:  - hour			10
+0185h:  - minute		05
+0186h:  - second		12
+0187h: ?			00
+0188h: Flags?			0000010Ch
+018Ch: ?			00000000h
+
+0190h: Directory ID		FFFFh
+0192h: Placed in directory	0002h, resources
+0194h: File name		font02.res
+01B4h: Start sector, offset	000004E0h, 0009C000h
+01B8h: Allocated sectors	00000040h
+01BCh: Length in bytes		0000113Ah
+01C0h: Creation year		2002
+01C2h:  - month			06
+01C3h:  - day			21
+01C4h:  - hour			10
+01C5h:  - minute		05
+01C6h:  - second		18
+01C7h: ?			00
+01C8h: Flags?			0000010Ch
+01CCh: ?			00000000h
+
+01D0h: Directory ID		FFFFh
+01D2h: Placed in directory	0002h, resources
+01D4h: File name		font03.res
+01F4h: Start sector, offset	00000520h, 000A4000h
+01F8h: Allocated sectors	00000040h
+01FCh: Length in bytes		00000ADAh
+0200h: Creation year		2002
+0202h:  - month			06
+0203h:  - day			21
+0204h:  - hour			10
+0205h:  - minute		05
+0206h:  - second		22
+0207h: ?			00
+0208h: Flags?			0000010Ch
+020Ch: ?			00000000h
+
+0210h: Directory ID		FFFFh
+0212h: Placed in directory	0001h, drivers
+0214h: File name		codedriver.sys
+0234h: Start sector, offset	00000560h, 000AC000h
+0238h: Allocated sectors	00000040h
+023Ch: Length in bytes		00000BBCh
+0240h: Creation year		2002
+0242h:  - month			09
+0243h:  - day			11
+0244h:  - hour			11
+0245h:  - minute		37
+0246h:  - second		56
+0247h: ?			00
+0248h: Flags?			0000010Fh
+024Ch: ?			00000000h
+
+0250h: Directory ID		FFFFh
+0252h: Placed in directory	0001h, drivers
+0254h: File name		sysdrv_l.sys
+0274h: Start sector, offset	000005A0h, 000B4000h
+0278h: Allocated sectors	00000040h
+027Ch: Length in bytes		0000005Dh
+0280h: Creation year		2002
+0282h:  - month			03
+0283h:  - day			14
+0284h:  - hour			09
+0285h:  - minute		28
+0286h:  - second		04
+0287h: ?			00
+0288h: Flags?			0000010Ch
+028Ch: ?			00000000h
+
+0290h: Directory ID		FFFFh
+0292h: Placed in directory	0002h, resources
+0294h: File name		language00.res
+02B4h: Start sector, offset	000005E0h, 000BC000h
+02B8h: Allocated sectors	00000040h
+02BCh: Length in bytes		00001A75h
+02C0h: Creation year		2002
+02C2h:  - month			06
+02C3h:  - day			21
+02C4h:  - hour			10
+02C5h:  - minute		02
+02C6h:  - second		16
+02C7h: ?			00
+02C8h: Flags?			0000010Ch
+02CCh: ?			00000000h
+
+02D0h: Directory ID		FFFFh
+02D2h: Placed in directory	0002h, resources
+02D4h: File name		language01.res
+02F4h: Start sector, offset	00000620h, 000C4000h
+02F8h: Allocated sectors	00000040h
+02FCh: Length in bytes		000018B5h
+0300h: Creation year		2002
+0302h:  - month			06
+0303h:  - day			21
+0304h:  - hour			10
+0305h:  - minute		02
+0306h:  - second		16
+0307h: ?			00
+0308h: Flags?			0000010Ch
+030Ch: ?			00000000h
+
+0310h: Directory ID		FFFFh
+0312h: Placed in directory	0002h, resources
+0314h: File name		language02.res
+0334h: Start sector, offset	00000660h, 000CC000h
+0338h: Allocated sectors	00000040h
+033Ch: Length in bytes		00001AD3h
+0340h: Creation year		2002
+0342h:  - month			06
+0343h:  - day			21
+0344h:  - hour			10
+0345h:  - minute		02
+0346h:  - second		16
+0347h: ?			00
+0348h: Flags?			0000010Ch
+034Ch: ?			00000000h
+
+0350h: Directory ID		FFFFh
+0352h: Placed in directory	0002h, resources
+0354h: File name		language03.res
+0374h: Start sector, offset	000006A0h, 000D4000h
+0378h: Allocated sectors	00000040h
+037Ch: Length in bytes		00001AB0h
+0380h: Creation year		2002
+0382h:  - month			06
+0383h:  - day			26
+0384h:  - hour			11
+0385h:  - minute		41
+0386h:  - second		14
+0387h: ?			00
+0388h: Flags?			0000010Ch
+038Ch: ?			00000000h
+
+0390h: Directory ID		FFFFh
+0392h: Placed in directory	0002h, resources
+0394h: File name		language04.res
+03B4h: Start sector, offset	000006E0h, 000DC000h
+03B8h: Allocated sectors	00000040h
+03BCh: Length in bytes		00001C10h
+03C0h: Creation year		2002
+03C2h:  - month			06
+03C3h:  - day			21
+03C4h:  - hour			10
+03C5h:  - minute		02
+03C6h:  - second		18
+03C7h: ?			00
+03C8h: Flags?			0000010Ch
+03CCh: ?			00000000h
+
+03D0h: Directory ID		FFFFh
+03D2h: Placed in directory	0002h, resources
+03D4h: File name		picture00.res
+03F4h: Start sector, offset	00000720h, 000E4000h
+03F8h: Allocated sectors	000000A0h
+03FCh: Length in bytes		0000E536h
+0400h: Creation year		2002
+0402h:  - month			06
+0403h:  - day			21
+0404h:  - hour			10
+0405h:  - minute		02
+0406h:  - second		18
+0407h: ?			00
+0408h: Flags?			0000010Ch
+040Ch: ?			00000000h
+
+0410h: Directory ID		FFFFh
+0412h: Placed in directory	0003h, sys_bin
+0414h: File name		CLK.PVA
+0434h: Start sector, offset	000007C0h, 000F8000h
+0438h: Allocated sectors	00000080h
+043Ch: Length in bytes		00009784h
+0440h: Creation year		2002
+0442h:  - month			09
+0443h:  - day			11
+0444h:  - hour			11
+0445h:  - minute		36
+0446h:  - second		48
+0447h: ?			00
+0448h: Flags?			0000010Fh
+044Ch: ?			00000000h
+
+0450h: Directory ID		FFFFh
+0452h: Placed in directory	0003h, sys_bin
+0454h: File name		CONV.PVA
+0474h: Start sector, offset	00000840h, 00108000h
+0478h: Allocated sectors	00000080h
+047Ch: Length in bytes		0000AA6Ch
+0480h: Creation year		2002
+0482h:  - month			09
+0483h:  - day			11
+0484h:  - hour			11
+0485h:  - minute		36
+0486h:  - second		52
+0487h: ?			00
+0488h: Flags?			0000010Fh
+048Ch: ?			00000000h
+
+0490h: Directory ID		FFFFh
+0492h: Placed in directory	0003h, sys_bin
+0494h: File name		DBV.PVA
+04B4h: Start sector, offset	000008C0h, 00118000h
+04B8h: Allocated sectors	00000080h
+04BCh: Length in bytes		00009788h
+04C0h: Creation year		2002
+04C2h:  - month			09
+04C3h:  - day			11
+04C4h:  - hour			11
+04C5h:  - minute		36
+04C6h:  - second		54
+04C7h: ?			00
+04C8h: Flags?			0000010Fh
+04CCh: ?			00000000h
+
+04D0h: Directory ID		FFFFh
+04D2h: Placed in directory	0003h, sys_bin
+04D4h: File name		DRAW.PVA
+04F4h: Start sector, offset	00000940h, 00128000h
+04F8h: Allocated sectors	00000080h
+04FCh: Length in bytes		00008080h
+0500h: Creation year		2002
+0502h:  - month			09
+0503h:  - day			11
+0504h:  - hour			11
+0505h:  - minute		36
+0506h:  - second		58
+0507h: ?			00
+0508h: Flags?			0000010Fh
+050Ch: ?			00000000h
+
+0510h: Directory ID		FFFFh
+0512h: Placed in directory	0003h, sys_bin
+0514h: File name		EXPENSE.PVA
+0534h: Start sector, offset	000009C0h, 00138000h
+0538h: Allocated sectors	00000080h
+053Ch: Length in bytes		0000B90Ch
+0540h: Creation year		2002
+0542h:  - month			09
+0543h:  - day			11
+0544h:  - hour			11
+0545h:  - minute		37
+0546h:  - second		02
+0547h: ?			00
+0548h: Flags?			0000010Fh
+054Ch: ?			00000000h
+
+0550h: Directory ID		FFFFh
+0552h: Placed in directory	0003h, sys_bin
+0554h: File name		GAME.PVA
+0574h: Start sector, offset	00000A40h, 00148000h
+0578h: Allocated sectors	00000080h
+057Ch: Length in bytes		00009F70h
+0580h: Creation year		2002
+0582h:  - month			09
+0583h:  - day			11
+0584h:  - hour			11
+0585h:  - minute		37
+0586h:  - second		04
+0587h: ?			00
+0588h: Flags?			0000010Fh
+058Ch: ?			00000000h
+
+0590h: Directory ID		FFFFh
+0592h: Placed in directory	0003h, sys_bin
+0594h: File name		MEMO.PVA
+05B4h: Start sector, offset	00000AC0h, 00158000h
+05B8h: Allocated sectors	00000080h
+05BCh: Length in bytes		000085C0h
+05C0h: Creation year		2002
+05C2h:  - month			09
+05C3h:  - day			11
+05C4h:  - hour			11
+05C5h:  - minute		37
+05C6h:  - second		08
+05C7h: ?			00
+05C8h: Flags?			0000010Fh
+05CCh: ?			00000000h
+
+05D0h: Directory ID		FFFFh
+05D2h: Placed in directory	0000h, programs
+05D4h: File name		MENU.PVA
+05F4h: Start sector, offset	00000B40h, 00168000h
+05F8h: Allocated sectors	00000060h
+05FCh: Length in bytes		00007710h
+0600h: Creation year		2002
+0602h:  - month			09
+0603h:  - day			11
+0604h:  - hour			11
+0605h:  - minute		37
+0606h:  - second		10
+0607h: ?			00
+0608h: Flags?			0000010Fh
+060Ch: ?			00000000h
+
+0610h: Directory ID		FFFFh
+0612h: Placed in directory	0003h, sys_bin
+0614h: File name		PASS.PVA
+0634h: Start sector, offset	00000BA0h, 00174000h
+0638h: Allocated sectors	00000040h
+063Ch: Length in bytes		00001D08h
+0640h: Creation year		2002
+0642h:  - month			09
+0643h:  - day			11
+0644h:  - hour			11
+0645h:  - minute		37
+0646h:  - second		10
+0647h: ?			00
+0648h: Flags?			0000010Fh
+064Ch: ?			00000000h
+
+0650h: Directory ID		FFFFh
+0652h: Placed in directory	0003h, sys_bin
+0654h: File name		SCH.PVA
+0674h: Start sector, offset	00000BE0h, 0017C000h
+0678h: Allocated sectors	000001E0h
+067Ch: Length in bytes		00037F00h
+0680h: Creation year		2002
+0682h:  - month			09
+0683h:  - day			11
+0684h:  - hour			11
+0685h:  - minute		37
+0686h:  - second		32
+0687h: ?			00
+0688h: Flags?			0000010Fh
+068Ch: ?			00000000h
+
+0690h: Directory ID		FFFFh
+0692h: Placed in directory	0003h, sys_bin
+0694h: File name		SPRD.PVA
+06B4h: Start sector, offset	00000DC0h, 001B8000h
+06B8h: Allocated sectors	00000180h
+06BCh: Length in bytes		0002B134h
+06C0h: Creation year		2002
+06C2h:  - month			09
+06C3h:  - day			11
+06C4h:  - hour			11
+06C5h:  - minute		37
+06C6h:  - second		40
+06C7h: ?			00
+06C8h: Flags?			0000010Fh
+06CCh: ?			00000000h
+
+06D0h: Directory ID		FFFFh
+06D2h: Placed in directory	0003h, sys_bin
+06D4h: File name		SYNC.PVA
+06F4h: Start sector, offset	00000F40h, 001E8000h
+06F8h: Allocated sectors	000000E0h
+06FCh: Length in bytes		00015A28h
+0700h: Creation year		2002
+0702h:  - month			09
+0703h:  - day			11
+0704h:  - hour			11
+0705h:  - minute		37
+0706h:  - second		50
+0707h: ?			00
+0708h: Flags?			0000010Fh
+070Ch: ?			00000000h
+
+0710h: Directory ID		FFFFh
+0712h: Placed in directory	0003h, sys_bin
+0714h: File name		TEL.PVA
+0734h: Start sector, offset	00001020h, 00204000h
+0738h: Allocated sectors	000000A0h
+073Ch: Length in bytes		0000F8B8h
+0740h: Creation year		2002
+0742h:  - month			09
+0743h:  - day			11
+0744h:  - hour			11
+0745h:  - minute		37
+0746h:  - second		54
+0747h: ?			00
+0748h: Flags?			0000010Fh
+074Ch: ?			00000000h
+
+0750h: Directory ID		FFFFh
+0752h: Placed in directory	0000h, programs
+0754h: File name		ALART.PVA
+0774h: Start sector, offset	000010C0h, 00218000h
+0778h: Allocated sectors	00000040h
+077Ch: Length in bytes		00000ED8h
+0780h: Creation year		2002
+0782h:  - month			09
+0783h:  - day			11
+0784h:  - hour			11
+0785h:  - minute		37
+0786h:  - second		54
+0787h: ?			00
+0788h: Flags?			0000010Fh
+078Ch: ?			00000000h
+
+0790h: Directory ID		FFFFh
+0792h: Placed in directory	0000h, programs
+0794h: File name		RESET.PVA
+07B4h: Start sector, offset	00001100h, 00220000h
+07B8h: Allocated sectors	00000040h
+07BCh: Length in bytes		00003DB4h
+07C0h: Creation year		2002
+07C2h:  - month			09
+07C3h:  - day			11
+07C4h:  - hour			11
+07C5h:  - minute		37
+07C6h:  - second		56
+07C7h: ?			00
+07C8h: Flags?			0000010Fh
+07CCh: ?			00000000h
+
+07D0h: Directory ID		FFFFh
+07D2h: Placed in directory	0001h, drivers
+07D4h: File name		alarmdriver.sys
+07F4h: Start sector, offset	00001140h, 00228000h
+07F8h: Allocated sectors	00000040h
+07FCh: Length in bytes		0000272Ch
+0800h: Creation year		2002
+0802h:  - month			09
+0803h:  - day			11
+0804h:  - hour			11
+0805h:  - minute		37
+0806h:  - second		58
+0807h: ?			00
+0808h: Flags?			0000010Fh
+080Ch: ?			00000000h
+
+0810h: Directory ID		FFFFh
+0812h: Placed in directory	0001h, drivers
+0814h: File name		libdriver.sys
+0834h: Start sector, offset	00001180h, 00230000h
+0838h: Allocated sectors	000001E0h
+083Ch: Length in bytes		000348BCh
+0840h: Creation year		2002
+0842h:  - month			07
+0843h:  - day			30
+0844h:  - hour			13
+0845h:  - minute		16
+0846h:  - second		58
+0847h: ?			00
+0848h: Flags?			0000010Fh
+084Ch: ?			00000000h
+----------------------------------------------------------------
+File offset: 0005FA90h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 00 FF FF FF FF FF FF FF FF FF FF FF FF 	....џџџџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00060250h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+0010h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+----------------------------------------------------------------
+File offset: 0006028Ch
+0000h: 50 56 4F 53 32 30 2D 56 41 4C 49 44 41 52 45 41 	PVOS20-VALIDAREA
+0010h: 00 00 00 01 C0 00 10 00 00 00 00 04 FF FF FF FF 	....Р.......џџџџ
+0020h: 00 00 00 01 C0 00 10 00 00 00 00 04 FF FF FF FF 	....Р.......џџџџ
+0030h: 00 00 00 01 C0 00 10 00 00 00 00 04 FF FF FF FF 	....Р.......џџџџ
+----------------------------------------------------------------
+File offset: 000602F0h
+Data end
+----------------------------------------------------------------
+0000h: 00 02 00 FF FF FF FF FF FF FF FF FF FF FF FF FF 	...џџџџџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000603E0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF 01 FF FF FF FF FF 	џџџџџџџџџџ.џџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000603E0h
+Data end
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF 01 FF FF FF FF FF 	џџџџџџџџџџ.џџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00060430h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF 00 7E 00 87 00 90 00 99 00 A2 00 AB 00 B4 	џџ.~....Ђ.Ћ.Д
+0010h: 00 BD 00 C6 00 CF 00 D8 00 E1 00 EA 00 F3 00 FC 	.Н.Ц.Я.и.с.ъ.ѓ.ќ
+----------------------------------------------------------------
+File offset: 000604E0h
+Data end
+----------------------------------------------------------------
+0000h: 03 8D 03 96 03 9F 03 A8 03 B1 03 BA 03 C3 03 CC 	....Ј.Б.К.У.Ь
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00060600h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF FF 00 00 FF FF 	џџџџџџџџџџџџ..џџ
+0010h: FF FF 00 09 00 12 00 1B 00 24 00 2D FF FF FF FF 	џџ.......$.-џџџџ
+----------------------------------------------------------------
+File offset: 00060630h
+Data end
+----------------------------------------------------------------
+0000h: 00 75 FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	.uџџџџџџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000606F0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF 03 D5 03 DE 03 E7 03 F0 03 F9 04 02 04 0B 	џџ.е.о.ч.№.љ....
+0010h: 04 14 04 1D 04 26 04 2F 04 38 04 41 04 4A 04 53 	.....&./.8.A.J.S
+----------------------------------------------------------------
+File offset: 000607C0h
+Data end
+----------------------------------------------------------------
+0000h: 07 6B FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	.kџџџџџџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000607F0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF 07 04 24 44 FC 40 20 00 00 06 D8 00 00 00 	џџ..$Dќ@ ...и...
+0010h: 00 00 00 00 04 20 40 80 00 00 00 00 00 04 80 40 	..... @......@
+----------------------------------------------------------------
+File offset: 00060F60h
+Data end
+----------------------------------------------------------------
+0000h: F8 40 F0 42 3C 00 FF FF FF FF FF FF FF FF FF FF 	ј@№B<.џџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000612E0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+0010h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+----------------------------------------------------------------
+File offset: 00061360h
+Data end
+----------------------------------------------------------------
+0000h: 20 20 20 20 01 00 00 08 00 02 00 FF FF FF FF FF 	    .......џџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00061460h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF 01 FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџ.џџџџџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00061460h
+Data end
+----------------------------------------------------------------
+0000h: FF FF 01 FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџ.џџџџџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000614A0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF 00 7E 00 87 00 90 	џџџџџџџџџџ.~..
+0010h: 00 99 00 A2 00 AB 00 B4 00 BD 00 C6 00 CF 00 D8 	..Ђ.Ћ.Д.Н.Ц.Я.и
+----------------------------------------------------------------
+File offset: 00061560h
+Data end
+----------------------------------------------------------------
+0000h: 03 C1 03 CA 03 D3 03 DC FF FF FF FF FF FF FF FF 	.С.Ъ.г.мџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00061680h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF 00 00 FF FF FF FF 00 09 00 12 00 1B 	џџџџ..џџџџ......
+0010h: 00 24 00 2D FF FF FF FF FF FF 00 36 00 3F 00 48 	.$.-џџџџџџ.6.?.H
+----------------------------------------------------------------
+File offset: 000616A0h
+Data end
+----------------------------------------------------------------
+0000h: 00 51 00 5A 00 63 00 6C 00 75 FF FF FF FF FF FF 	.Q.Z.c.l.uџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00061760h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF 03 E5 03 EE 03 F7 	џџџџџџџџџџ.х.ю.ї
+0010h: 04 00 04 09 04 12 04 1B 04 24 04 2D 04 36 04 3F 	.........$.-.6.?
+----------------------------------------------------------------
+File offset: 00061830h
+Data end
+----------------------------------------------------------------
+0000h: 07 87 07 90 07 99 07 A2 07 AB FF FF FF FF FF FF 	....Ђ.Ћџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00061860h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF 07 04 24 44 FC 40 	џџџџџџџџџџ..$Dќ@
+0010h: 20 00 00 06 D8 00 00 00 00 00 00 00 04 20 40 80 	 ...и........ @
+----------------------------------------------------------------
+File offset: 00062020h
+Data end
+----------------------------------------------------------------
+0000h: 61 00 3E 00 00 00 FF FF FF FF FF FF FF FF FF FF 	a.>...џџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00062350h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF FF 00 00 00 01 	џџџџџџџџџџџџ....
+0010h: C0 00 10 00 00 00 00 04 FF FF FF FF 00 00 00 01 	Р.......џџџџ....
+----------------------------------------------------------------
+File offset: 000623E0h
+Data end
+----------------------------------------------------------------
+0000h: 00 02 00 FF FF FF FF FF FF FF FF FF FF FF FF FF 	...џџџџџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000624D0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF 01 FF FF FF FF FF 	џџџџџџџџџџ.џџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000624D0h
+Data end
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF 01 FF FF FF FF FF 	џџџџџџџџџџ.џџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00062520h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF 00 B6 00 C3 00 D0 00 DD 00 EA 00 F7 01 10 	џџ.Ж.У.а.н.ъ.ї..
+0010h: 01 1D 01 2A 01 37 01 44 01 51 01 5E 01 6B 01 78 	...*.7.D.Q.^.k.x
+----------------------------------------------------------------
+File offset: 000625D0h
+Data end
+----------------------------------------------------------------
+0000h: 05 81 05 9A 05 A7 05 B4 05 C1 05 CE 05 DB 05 E8 	...Ї.Д.С.Ю.л.ш
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000626F0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF FF 00 00 FF FF 	џџџџџџџџџџџџ..џџ
+0010h: FF FF 00 0D 00 1A 00 27 00 34 00 41 FF FF FF FF 	џџ.....'.4.Aџџџџ
+----------------------------------------------------------------
+File offset: 00062720h
+Data end
+----------------------------------------------------------------
+0000h: 00 A9 FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	.Љџџџџџџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000627E0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF 06 01 06 0E 06 1B 06 28 06 35 06 42 06 4F 	џџ.......(.5.B.O
+0010h: 06 5C 06 69 06 76 06 83 06 90 06 9D 06 AA 06 B7 	.\.i.v....Њ.З
+----------------------------------------------------------------
+File offset: 000628B0h
+Data end
+----------------------------------------------------------------
+0000h: 0C 13 FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	..џџџџџџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000628E0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF 08 02 02 02 22 42 FE 40 20 00 00 00 00 06 	џџ...."Bў@ .....
+0010h: D8 00 00 00 00 00 00 00 00 00 00 00 05 10 20 40 	и............. @
+----------------------------------------------------------------
+File offset: 00063500h
+Data end
+----------------------------------------------------------------
+0000h: 60 00 FE 00 60 00 31 80 1F 00 00 00 00 00 FF FF 	`.ў.`.1......џџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000643D0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+0010h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+----------------------------------------------------------------
+File offset: 00064440h
+Data end
+----------------------------------------------------------------
+0000h: 20 20 20 20 01 00 06 07 00 02 00 FF FF FF FF FF 	    .......џџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00064540h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF 01 FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџ.џџџџџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00064540h
+Data end
+----------------------------------------------------------------
+0000h: FF FF 01 FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџ.џџџџџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00064580h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF 00 62 00 69 00 70 	џџџџџџџџџџ.b.i.p
+0010h: 00 77 00 7E 00 85 00 8C 00 93 00 9A 00 A1 00 A8 	.w.~.....Ё.Ј
+----------------------------------------------------------------
+File offset: 00064640h
+Data end
+----------------------------------------------------------------
+0000h: 02 DF 02 E6 02 ED 02 F4 FF FF FF FF FF FF FF FF 	.п.ц.э.єџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00064760h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF 00 00 FF FF FF FF 00 07 00 0E 00 15 	џџџџ..џџџџ......
+0010h: 00 1C 00 23 FF FF FF FF FF FF 00 2A 00 31 00 38 	...#џџџџџџ.*.1.8
+----------------------------------------------------------------
+File offset: 00064780h
+Data end
+----------------------------------------------------------------
+0000h: 00 3F 00 46 00 4D 00 54 00 5B FF FF FF FF FF FF 	.?.F.M.T.[џџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00064840h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF 02 FB 03 02 03 09 	џџџџџџџџџџ.ћ....
+0010h: 03 10 03 17 03 1E 03 25 03 2C 03 33 03 3A 03 41 	.......%.,.3.:.A
+----------------------------------------------------------------
+File offset: 00064910h
+Data end
+----------------------------------------------------------------
+0000h: 05 A9 05 B0 05 B7 05 BE 05 C5 FF FF FF FF FF FF 	.Љ.А.З.О.Хџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00064940h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF 00 08 08 48 F8 40 	џџџџџџџџџџ...Hј@
+0010h: 00 50 00 00 00 00 00 00 10 20 00 00 00 00 00 40 	.P....... .....@
+----------------------------------------------------------------
+File offset: 00064F10h
+Data end
+----------------------------------------------------------------
+0000h: 40 F8 40 F0 40 38 FF FF FF FF FF FF FF FF FF FF 	@ј@№@8џџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00065430h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF FF 00 00 00 01 	џџџџџџџџџџџџ....
+0010h: C0 00 10 00 00 00 00 04 FF FF FF FF 00 00 00 01 	Р.......џџџџ....
+----------------------------------------------------------------
+File offset: 000654B4h
+PVA header
+----------------------------------------------------------------
+0000h: PVA signature		PVAPLHEDV20
+000Ch: Header version?		0001h
+003Ah: ?			0001h
+003Ch: Offset to ELF		000000A8h
+0040h: PVA mode			0001h, PV
+0042h: PVA type			0002h, Driver
+0046h: ?			0048h
+0048h: Program name		
+0088h: Program version		0100h, 001.000
+008Ah: Library version		0100h, 001.000
+008Ch: ELF length		00000B14h
+0090h: Creation year		2002
+0092h:  - month			09
+0093h:  - day			11
+0094h:  - hour			11
+0095h:  - minute		37
+0096h:  - second		56
+0097h: ?			00
+0098h: ?			0001h
+009Ah: Icon height		FFFFh, 
+009Ch: Icon width		FFFFh, 
+009Eh: ?			0000h
+00A0h: Small icon height	FFFFh, 
+00A2h: Small icon width		FFFFh, 
+00A4h: ?			0000h
+00A6h: ?			1200h
+----------------------------------------------------------------
+File offset: 00065A34h
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		CodeConv        џџџџ
+0020h: ?			FFFFFFFFh
+0024h: ?			00000000h
+0028h: Some flags?		00000011h
+002Ch: Install program		00000000h, 00000000h
+0030h: Uninstall program	00000000h, 00000000h
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		00000000h, 00000000h
+003Ch: UNICODE name		SYSTEM FONTCNV
+----------------------------------------------------------------
+File offset: 00066060h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 01 	................
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000664B0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+0010h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+----------------------------------------------------------------
+File offset: 00066580h
+Data end
+----------------------------------------------------------------
+0000h: 76 65 72 2E 73 79 73 0D 0A FF FF FF FF FF FF FF 	ver.sys..џџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00067520h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF FF 00 00 00 01 	џџџџџџџџџџџџ....
+0010h: C0 00 10 00 00 00 00 04 FF FF FF FF 00 00 00 01 	Р.......џџџџ....
+----------------------------------------------------------------
+File offset: 00069010h
+Data end
+----------------------------------------------------------------
+0000h: 00 5A 61 68 6C 75 6E 67 00 FF FF FF FF FF FF FF 	.Zahlung.џџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000695A0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+0010h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+----------------------------------------------------------------
+File offset: 0006AEC0h
+Data end
+----------------------------------------------------------------
+0000h: 00 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	.џџџџџџџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 0006B600h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF FF 00 00 00 01 	џџџџџџџџџџџџ....
+0010h: C0 00 10 00 00 00 00 04 FF FF FF FF 00 00 00 01 	Р.......џџџџ....
+----------------------------------------------------------------
+File offset: 0006D140h
+Data end
+----------------------------------------------------------------
+0000h: 6F 00 50 61 67 6F 00 FF FF FF FF FF FF FF FF FF 	o.Pago.џџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 0006D670h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+0010h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+----------------------------------------------------------------
+File offset: 0006F180h
+Data end
+----------------------------------------------------------------
+0000h: 72 61 67 65 00 50 61 69 65 6D 2E 00 FF FF FF FF 	rage.Paiem..џџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 0006F6D0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF FF 00 00 00 01 	џџџџџџџџџџџџ....
+0010h: C0 00 10 00 00 00 00 04 FF FF FF FF 00 00 00 01 	Р.......џџџџ....
+----------------------------------------------------------------
+File offset: 00071350h
+Data end
+----------------------------------------------------------------
+0000h: 61 6D 2E 00 FF FF FF FF FF FF FF FF FF FF FF FF 	am..џџџџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00071740h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+0010h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+----------------------------------------------------------------
+File offset: 00072380h
+Data end
+----------------------------------------------------------------
+0000h: 00 08 00 08 3C 42 81 81 81 81 42 3C 00 68 00 0F 	....<BB<.h..
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000723A0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF C0 00 00 00 00 00 	џџџџџџџџџџР.....
+0010h: 00 00 00 00 00 00 01 C0 00 00 00 00 00 00 00 00 	.......Р........
+----------------------------------------------------------------
+File offset: 0007C5C0h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 00 00 00 00 00 00 A0 00 A0 FF FF FF FF 	......... . џџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 0007C5F0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF 7F FF FF FB FF FF FF FF FF FF 	џџџџџџџџћџџџџџџ
+0010h: FF F7 FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џїџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 0007C620h
+Data end
+----------------------------------------------------------------
+0000h: FF FF FF FF 7F FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 0007C640h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF F7 FF FF FF FF FF 	џџџџџџџџџџїџџџџџ
+0010h: FF FF FF FF FF EF FF FF FF FF FF FF FF FF FF FF 	џџџџџяџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 0007C660h
+Data end
+----------------------------------------------------------------
+0000h: FF FF FF FF BF FF FF FF FF AB FF FF FF FF FF FF 	џџџџПџџџџЋџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 0007C680h
+Data begin
+----------------------------------------------------------------
+0000h: F7 FF FF FF FF FF FF FF FF FF FF FF FF FF FF EF 	їџџџџџџџџџџџџџџя
+0010h: FF 29 FF FF FF FF FF FF FF DF FF EF F0 3F BF FF 	џ)џџџџџџџпџя№?Пџ
+----------------------------------------------------------------
+File offset: 0007CC70h
+Data end
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF FE FF FF FF F7 	џџџџџџџџџџџўџџџї
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 0007CCA0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF DF F7 00 03 FF 	џџџџџџџџџџџпї..џ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 0007CCA0h
+Data end
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF DF F7 00 03 FF 	џџџџџџџџџџџпї..џ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 0007CCC0h
+Data begin
+----------------------------------------------------------------
+0000h: FF 7F F8 FF FF FF 0F FF FF FE 00 38 07 FF FF FF 	џјџџџ.џџў.8.џџџ
+0010h: FF FF FF FF FF 1F FE 7F FF FE 6F FF FF FE FF BB 	џџџџџ.ўџўoџџўџЛ
+----------------------------------------------------------------
+File offset: 0007CE20h
+Data end
+----------------------------------------------------------------
+0000h: FF F0 3F 8E 3F 03 FF FF FF FF FF FF FF FF FF FF 	џ№??.џџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 0007CE80h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF FF BD DB B7 B7 	џџџџџџџџџџџџНлЗЗ
+0010h: 7D B7 B6 F6 DB BB 6E DB FE ED F6 EF 6F 75 BA DF 	}ЗЖілЛnлўэіяouКп
+----------------------------------------------------------------
+File offset: 0007E8A0h
+Data end
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FE FF FF FF FF FF FF 	џџџџџџџџџўџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 0007EC10h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 00 	џџџџџџџџџџџџџџ..
+0010h: 00 00 00 00 00 00 00 00 00 00 00 0B 00 08 1F 00 	................
+----------------------------------------------------------------
+File offset: 0007FC90h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 00 00 00 FF FF FF FF FF FF FF FF FF FF 	......џџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00080760h
+Data begin
+----------------------------------------------------------------
+0000h: 00 00 00 01 C0 00 10 00 00 00 00 04 FF FF FF FF 	....Р.......џџџџ
+0010h: 00 00 00 01 C0 00 10 00 00 00 00 04 FF FF FF FF 	....Р.......џџџџ
+----------------------------------------------------------------
+File offset: 000807B8h
+PVA header
+----------------------------------------------------------------
+0000h: PVA signature		PVAPLHEDV20
+000Ch: Header version?		0001h
+003Ah: ?			0001h
+003Ch: Offset to ELF		000000A8h
+0040h: PVA mode			0001h, PV
+0042h: PVA type			0000h, Application
+0046h: ?			0048h
+0048h: Program name		
+0088h: Program version		0100h, 001.000
+008Ah: Library version		0100h, 001.000
+008Ch: ELF length		000096DCh
+0090h: Creation year		2002
+0092h:  - month			09
+0093h:  - day			11
+0094h:  - hour			11
+0095h:  - minute		36
+0096h:  - second		48
+0097h: ?			00
+0098h: ?			0001h
+009Ah: Icon height		FFFFh, 
+009Ch: Icon width		FFFFh, 
+009Eh: ?			0000h
+00A0h: Small icon height	FFFFh, 
+00A2h: Small icon width		FFFFh, 
+00A4h: ?			0000h
+00A6h: ?			1200h
+----------------------------------------------------------------
+File offset: 000866B4h
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		                
+0020h: ?			00000000h
+0024h: ?			00000000h
+0028h: Some flags?		00000000h
+002Ch: Install program		00000000h, 00000000h
+0030h: Uninstall program	00000000h, 00000000h
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		00000000h, 00000000h
+003Ch: UNICODE name		
+----------------------------------------------------------------
+File offset: 00089F30h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 00 00 00 00 01 00 00 00 01 FF FF FF FF 	............џџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 0008A7B0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF 00 00 00 01 C0 00 10 00 	џџџџџџџџ....Р...
+0010h: 00 00 00 04 FF FF FF FF 00 00 00 01 C0 00 10 00 	....џџџџ....Р...
+----------------------------------------------------------------
+File offset: 0008A820h
+PVA header
+----------------------------------------------------------------
+0000h: PVA signature		PVAPLHEDV20
+000Ch: Header version?		0001h
+003Ah: ?			0001h
+003Ch: Offset to ELF		00000150h
+0040h: PVA mode			0001h, PV
+0042h: PVA type			0000h, Application
+0046h: ?			0048h
+0048h: Program name		
+0088h: Program version		0100h, 001.000
+008Ah: Library version		0100h, 001.000
+008Ch: ELF length		0000A91Ch
+0090h: Creation year		2002
+0092h:  - month			09
+0093h:  - day			11
+0094h:  - hour			11
+0095h:  - minute		36
+0096h:  - second		52
+0097h: ?			00
+0098h: ?			0001h
+009Ah: Icon height		001Ch, 28
+009Ch: Icon width		002Dh, 45
+009Eh: ?			0000h
+00A0h: Small icon height	FFFFh, 
+00A2h: Small icon width		FFFFh, 
+00A4h: ?			0000h
+00A6h: ?			1200h
+----------------------------------------------------------------
+00A8h: Icon 28x45
+	................................................
+	.......ллллллл..................................
+	......л.......л.................................
+	.....л.........л................................
+	.....лл.......лл................................
+	.....л.ллллллллл................................
+	.....лл......лл...л.............................
+	.....л.ллллллл..ллл.............лллллл..........
+	.....лл.......ллллл............л......л.........
+	.....л.лллл.ллллллллл.....л...л........л........
+	.....лл......лллллллллл...лл..лл......лл........
+	.....л.ллллл..ллллллллллл.ллл.л.лллллллл........
+	.....лл......л.ллллллллллллллл........лл........
+	.....л.лллллллл.ллл.ллллллллллл.лллллллл........
+	.....лл......лл..лл...лллллллллл......лл........
+	.....л.лллллллл...л.....ллллллллл.лллллл........
+	.....лл......лл...........ллллл.......лл........
+	.....л.лллллллл...........ллл...лллллллл........
+	.....лл......лл...........л...лл......лл........
+	.....л.лллллллл.л.л.л.л.л.л.л.л.лллллллл........
+	......л......ллллллл.л.л.л.л.ллл......лл........
+	..л.л.лллллллл......л.л.л.л.л.л.ллллллллл.л.....
+	.л.л.л.лллллл........л.л.л.л.ллл......лл.л.л....
+	л.л.л.л.л.л.лл......ллл.л.л.л.л.ллллллллл.л.л...
+	.л.л.л.л.л.л.ллллллллл.л.л.л.ллл......лл.л.л....
+	..л.л.л.л.л.л.ллллллл.л.л.л.л.ллллллллл.л.л.....
+	.......л.л.л.л.л.л.л.л.л.л.л.л.ллллллл..........
+	............л.л.л.л.л.л.л.л.л.л.л...............
+----------------------------------------------------------------
+File offset: 00091A24h
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		                
+0020h: ?			00000000h
+0024h: ?			00000000h
+0028h: Some flags?		00000000h
+002Ch: Install program		00000000h, 00000000h
+0030h: Uninstall program	00000000h, 00000000h
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		00000000h, 00000000h
+003Ch: UNICODE name		
+----------------------------------------------------------------
+File offset: 00095280h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 00 00 00 00 01 00 00 00 01 FF FF FF FF 	............џџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00095820h
+Data begin
+----------------------------------------------------------------
+0000h: 00 00 00 01 C0 00 10 00 00 00 00 04 FF FF FF FF 	....Р.......џџџџ
+0010h: 00 00 00 01 C0 00 10 00 00 00 00 04 FF FF FF FF 	....Р.......џџџџ
+----------------------------------------------------------------
+File offset: 00095878h
+PVA header
+----------------------------------------------------------------
+0000h: PVA signature		PVAPLHEDV20
+000Ch: Header version?		0001h
+003Ah: ?			0001h
+003Ch: Offset to ELF		000001A0h
+0040h: PVA mode			0001h, PV
+0042h: PVA type			0000h, Application
+0046h: ?			0048h
+0048h: Program name		P.Referencer
+0088h: Program version		0100h, 001.000
+008Ah: Library version		0100h, 001.000
+008Ch: ELF length		000095E8h
+0090h: Creation year		2002
+0092h:  - month			09
+0093h:  - day			11
+0094h:  - hour			11
+0095h:  - minute		36
+0096h:  - second		54
+0097h: ?			00
+0098h: ?			0001h
+009Ah: Icon height		001Ch, 28
+009Ch: Icon width		002Dh, 45
+009Eh: ?			0000h
+00A0h: Small icon height	0014h, 20
+00A2h: Small icon width		001Bh, 27
+00A4h: ?			0000h
+00A6h: ?			1200h
+----------------------------------------------------------------
+00A8h: Icon 28x45
+	......ллллллллллллллллл.........................
+	......л...............л.........................
+	......л...............л.ллл.....................
+	......л...лллл..ллллл.лл...ллл..................
+	......л..л..л.л.......л.......ллл...............
+	......л.л...л..л.ллл.л..ллл......ллл............
+	.....л..л..л...л....л......ллл......ллл.........
+	.....л...л.л..л....л....лл....ллл......л........
+	.....л....лллл....л....лл..лл....л....л.л.......
+	.....л...........л........лл..лл...ллл..л.......
+	.....л..........л............лл.....ллл.л.......
+	.....л..лл.ллл.л..ллл..............л..л.л.......
+	.....л........л......ллл........ллл...ллл.......
+	....л..лллл..л..ллл.....ллл......ллл..лл........
+	....л.......л......ллл.....л....л..л..л.........
+	....л......л..........ллл....ллл...л.лл.........
+	....л.......ллл..........лл...ллл..ллл..........
+	....л..........ллл...........л..л..л............
+	....л.............ллл.....ллл...л.лл............
+	....лллллллллллллл...ллл...ллл..ллл.............
+	.......л.л.лллл...ллл..лллл..л..лл.л.л..........
+	..л.л.л.л.лл...ллл...ллл.лл..л.лл.л.л.л.л.л.....
+	.л.л.л.л.л.лллл...ллл..л.лл..ллл.л.л.л.л.л.л....
+	л.л.л.л.л.л.л.лллл...лл.л.л..лл.л.л.л.л.л.л.л...
+	.л.л.л.л.л.л.л.л.лллл....лл.лл.л.л.л.л.л.л.л....
+	..л.л.л.л.л.л.л.л.л.лллл..ллл.л.л.л.л.л.л.л.....
+	.......л.л.л.л.л.л.л.л.ллллл.л.л.л.л.л..........
+	............л.л.л.л.л.л.л.л.л.л.л...............
+----------------------------------------------------------------
+0150h: Icon 20x27
+	лллллллллллллл..................
+	л............л..лл..............
+	л..ллл..лллл.л.л..лл............
+	л.л..лл......лл.....лл..........
+	л.л.л.л.ллл..л........лл........
+	л.лл..л.....л...лл......лл......
+	л..ллл.....л......лл......л.....
+	л.........л..лл.....л....лл.....
+	л.лл.ллллл.....лл.....ллл.л.....
+	л.......л...лл...лл....лл.л.....
+	л.лллл.л......лл....ллл.л.л.....
+	л......ллл......л....лл.лл......
+	л.........лл......ллл.л.л.......
+	л...........лл.....лл.ллл.......
+	лллллллллллллллл..л.л.л.........
+	.......лл.л.л.л.лл..ллл.........
+	.........ллл.л.л.л..л...........
+	...........лл.л.лл.лл...........
+	.............ллл.лл.............
+	...............ллл..............
+----------------------------------------------------------------
+File offset: 0009BEF4h
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		                
+0020h: ?			00000000h
+0024h: ?			00000000h
+0028h: Some flags?		00000000h
+002Ch: Install program		00000000h, 00000000h
+0030h: Uninstall program	00000000h, 00000000h
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		00000000h, 00000000h
+003Ch: UNICODE name		
+----------------------------------------------------------------
+File offset: 0009EFF0h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 01 	................
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 0009F870h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF 00 00 00 01 C0 00 10 00 	џџџџџџџџ....Р...
+0010h: 00 00 00 04 FF FF FF FF 00 00 00 01 C0 00 10 00 	....џџџџ....Р...
+----------------------------------------------------------------
+File offset: 0009F8E0h
+PVA header
+----------------------------------------------------------------
+0000h: PVA signature		PVAPLHEDV20
+000Ch: Header version?		0001h
+003Ah: ?			0001h
+003Ch: Offset to ELF		00000150h
+0040h: PVA mode			0001h, PV
+0042h: PVA type			0000h, Application
+0046h: ?			0048h
+0048h: Program name		
+0088h: Program version		0100h, 001.000
+008Ah: Library version		0100h, 001.000
+008Ch: ELF length		00007F30h
+0090h: Creation year		2002
+0092h:  - month			09
+0093h:  - day			11
+0094h:  - hour			11
+0095h:  - minute		36
+0096h:  - second		58
+0097h: ?			00
+0098h: ?			0001h
+009Ah: Icon height		001Ch, 28
+009Ch: Icon width		002Dh, 45
+009Eh: ?			0000h
+00A0h: Small icon height	FFFFh, 
+00A2h: Small icon width		FFFFh, 
+00A4h: ?			0000h
+00A6h: ?			1200h
+----------------------------------------------------------------
+00A8h: Icon 28x45
+	................................................
+	................................................
+	................................................
+	......................................ллл.......
+	.....................................лл.лл......
+	....................................лл...лл.....
+	...................................лл..л..л.....
+	..................................лл.....лл.....
+	.................................лл...л.лл......
+	........ллллл...................лл...л.лл.......
+	......ллллллллл................лл...л.лл........
+	.....ллллллллллл..............лл...л.лл.........
+	....ллллл...ллллл............лл...л.лл..........
+	....ллл.......ллллллл.......лл...л.лл...........
+	...лллл........лллллллл....лл...л.лл............
+	...ллл........лллллллллл..лл...л.лл.............
+	...ллл.......лллллл..лллл.л...л.лл..............
+	...ллл.......лллллл...ллллл..л.лл...............
+	...ллл......ллл.ллл...лллл....лл................
+	...ллл......ллл.ллл.л.ллл...ллл.................
+	...ллл.л.л..лллллл.л.л.лл..лл....л.л.л..........
+	....л...л.л.лллллл..л..лллл...л.л.л.л.л.л.л.....
+	.л.....л.л...лллл..л.л.ллл...л.л.л.л.л.л.л.л....
+	л.л.л.л.л.л.......л.л...л...л.л.л.л.л.л.л.л.л...
+	.л.л.л.л.л.л.л.л.л.л.л.....л.л.л.л.л.л.л.л.л....
+	..л.л.л.л.л.л.л.л.л.л.л.л.л.л.л.л.л.л.л.л.л.....
+	.......л.л.л.л.л.л.л.л.л.л.л.л.л.л.л.л..........
+	............л.л.л.л.л.л.л.л.л.л.л...............
+----------------------------------------------------------------
+File offset: 000A41B8h
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		                
+0020h: ?			00000000h
+0024h: ?			00000000h
+0028h: Some flags?		00000000h
+002Ch: Install program		00000000h, 00000000h
+0030h: Uninstall program	00000000h, 00000000h
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		00000000h, 00000000h
+003Ch: UNICODE name		
+----------------------------------------------------------------
+File offset: 000A7950h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 01 	................
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000A88E0h
+Data begin
+----------------------------------------------------------------
+0000h: 00 00 00 01 C0 00 10 00 00 00 00 04 FF FF FF FF 	....Р.......џџџџ
+0010h: 00 00 00 01 C0 00 10 00 00 00 00 04 FF FF FF FF 	....Р.......џџџџ
+----------------------------------------------------------------
+File offset: 000A8958h
+PVA header
+----------------------------------------------------------------
+0000h: PVA signature		PVAPLHEDV20
+000Ch: Header version?		0001h
+003Ah: ?			0001h
+003Ch: Offset to ELF		00000150h
+0040h: PVA mode			0005h, Unknown
+0042h: PVA type			0000h, Application
+0046h: ?			0048h
+0048h: Program name		
+0088h: Program version		0100h, 001.000
+008Ah: Library version		0100h, 001.000
+008Ch: ELF length		0000B7BCh
+0090h: Creation year		2002
+0092h:  - month			09
+0093h:  - day			11
+0094h:  - hour			11
+0095h:  - minute		37
+0096h:  - second		02
+0097h: ?			00
+0098h: ?			0001h
+009Ah: Icon height		001Ch, 28
+009Ch: Icon width		002Dh, 45
+009Eh: ?			0000h
+00A0h: Small icon height	FFFFh, 
+00A2h: Small icon width		FFFFh, 
+00A4h: ?			0000h
+00A6h: ?			1200h
+----------------------------------------------------------------
+00A8h: Icon 28x45
+	................................................
+	................ллл.ллл.........................
+	...............л...л...л........................
+	...............л...л...лллл.....................
+	............лллл...л...л...л....................
+	...........л...л...л...л...л.ллл................
+	...........л...л...л...л..ллл...л...............
+	...........л...л.ллллл.ллл.......л..............
+	...........л...лл.....л...........л.............
+	...........л..лл.......л...........л............
+	...........ллллл.......л............л...........
+	.........ллл....л......л.......ллл...л..........
+	........л........л....лл......л..л....л.........
+	.......л.........л..ллл......л...л..ллл.........
+	.......л.........ллллл......л...ллллллл.........
+	.......л........лллл.......л....лллл............
+	.......лл.....ллл.........л....лл...............
+	........лллллллл........ллл....лл...............
+	.........ллллл.......ллллл....лл................
+	...........л.лл...ллллллл.....л.л...............
+	.......л.л.л..ллллллл..л.....ллл.л.л.л..........
+	..л.л.л.л.ллл..ллл...........лл.л.л.л.л.л.л.....
+	.л.л.л.л.л.ллл..............лл.л.л.л.л.л.л.л....
+	л.л.л.л.л.л.ллл...........ллл.л.л.л.л.л.л.л.л...
+	.л.л.л.л.л.л.лл...........лл.л.л.л.л.л.л.л.л....
+	..л.л.л.л.л.л.ллллллллллллл.л.л.л.л.л.л.л.л.....
+	.......л.л.л.л.ллллллллллллл.л.л.л.л.л..........
+	............л.л.л.л.л.л.л.л.л.л.л...............
+----------------------------------------------------------------
+File offset: 000AFEE8h
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		                
+0020h: ?			00000000h
+0024h: ?			00000000h
+0028h: Some flags?		00000000h
+002Ch: Install program		00000000h, 00000000h
+0030h: Uninstall program	00000000h, 00000000h
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		00000000h, 00000000h
+003Ch: UNICODE name		
+----------------------------------------------------------------
+File offset: 000B4230h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 01 	................
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000B4930h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+0010h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+----------------------------------------------------------------
+File offset: 000B497Ch
+PVA header
+----------------------------------------------------------------
+0000h: PVA signature		PVAPLHEDV20
+000Ch: Header version?		0001h
+003Ah: ?			0001h
+003Ch: Offset to ELF		00000150h
+0040h: PVA mode			0001h, PV
+0042h: PVA type			0000h, Application
+0046h: ?			0048h
+0048h: Program name		
+0088h: Program version		0100h, 001.000
+008Ah: Library version		0100h, 001.000
+008Ch: ELF length		00009E20h
+0090h: Creation year		2002
+0092h:  - month			09
+0093h:  - day			11
+0094h:  - hour			11
+0095h:  - minute		37
+0096h:  - second		04
+0097h: ?			00
+0098h: ?			0001h
+009Ah: Icon height		001Ch, 28
+009Ch: Icon width		002Dh, 45
+009Eh: ?			0000h
+00A0h: Small icon height	FFFFh, 
+00A2h: Small icon width		FFFFh, 
+00A4h: ?			0000h
+00A6h: ?			1200h
+----------------------------------------------------------------
+00A8h: Icon 28x45
+	................................................
+	................................................
+	.................ллл............................
+	..............ллл..л............................
+	...........ллл......л...........................
+	........ллл.........л...........................
+	.......л...лл........л..........................
+	.......л..л.л........л..........................
+	.......лл.л.лл........л....ллл..................
+	........л..л.л........л...л...ллл...............
+	........лл.л......ллл..л.л.лл....ллл............
+	.........л....ллл.ллл..лл.л..л......ллл.........
+	.........лл...ллллллл..л.л.лл.........л.........
+	..........л...лллллл..л....л.........лл.........
+	..........лл....лллл.л......л.......лл..........
+	...........л......ллл....лллл......лл...........
+	...........лл......л..ллллллл.....лл............
+	............л.....л...ллллллл....лл.............
+	............лл...л......ллллл...лл..............
+	.............л..л.....ллл..лл..лл...............
+	.......л.л.л.ллл........лл....лл.л.л.л..........
+	..л.л.л.л.л.л.лллл...........лл.л.л.л.л.л.л.....
+	.л.л.л.л.л.л.лллллллл.......лл.л.л.л.л.л.л.л....
+	л.л.л.л.л.л.л.л.л.лллллл...лл.л.л.л.л.л.л.л.л...
+	.л.л.л.л.л.л.л.л.л.л.ллллллл.л.л.л.л.л.л.л.л....
+	..л.л.л.л.л.л.л.л.л.л.л.ллл.л.л.л.л.л.л.л.л.....
+	.......л.л.л.л.л.л.л.л.л.л.л.л.л.л.л.л..........
+	............л.л.л.л.л.л.л.л.л.л.л...............
+----------------------------------------------------------------
+File offset: 000BB824h
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		                
+0020h: ?			00000000h
+0024h: ?			00000000h
+0028h: Some flags?		00000000h
+002Ch: Install program		00000000h, 00000000h
+0030h: Uninstall program	00000000h, 00000000h
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		00000000h, 00000000h
+003Ch: UNICODE name		
+----------------------------------------------------------------
+File offset: 000BE8E0h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 00 00 00 00 01 00 00 00 01 FF FF FF FF 	............џџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000BE970h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF FF 00 00 00 01 	џџџџџџџџџџџџ....
+0010h: C0 00 10 00 00 00 00 04 FF FF FF FF 00 00 00 01 	Р.......џџџџ....
+----------------------------------------------------------------
+File offset: 000BE9E4h
+PVA header
+----------------------------------------------------------------
+0000h: PVA signature		PVAPLHEDV20
+000Ch: Header version?		0001h
+003Ah: ?			0001h
+003Ch: Offset to ELF		00000150h
+0040h: PVA mode			0005h, Unknown
+0042h: PVA type			0000h, Application
+0046h: ?			0048h
+0048h: Program name		
+0088h: Program version		0100h, 001.000
+008Ah: Library version		0100h, 001.000
+008Ch: ELF length		00008470h
+0090h: Creation year		2002
+0092h:  - month			09
+0093h:  - day			11
+0094h:  - hour			11
+0095h:  - minute		37
+0096h:  - second		08
+0097h: ?			00
+0098h: ?			0001h
+009Ah: Icon height		001Ch, 28
+009Ch: Icon width		002Dh, 45
+009Eh: ?			0000h
+00A0h: Small icon height	FFFFh, 
+00A2h: Small icon width		FFFFh, 
+00A4h: ?			0000h
+00A6h: ?			1200h
+----------------------------------------------------------------
+00A8h: Icon 28x45
+	................................................
+	..................лл............................
+	...............ллл..ллл.........................
+	...............л.лллл..ллл........лл............
+	..............л..л..лллл..ллл....лл.л...........
+	..............л...л.л..лллл..лл.л..л.л..........
+	.............л.......л.л..лллл.л..л.лл..........
+	.............л..........л.л..лл..л.лл...........
+	............л..............л.л..л.лл............
+	............л..ллл..........л..л.лл.............
+	...........л......ллл......л..л.лллл............
+	...........л..ллл....ллл..л..л.лл.лл............
+	..........л......ллл.....л..л.лл.лл.............
+	..........л..ллл....лл..л..л.ллл.лл.............
+	.........л......ллл....л..л.ллл.лл..............
+	.........л..ллл....лл.л..л.лл.л.лл..............
+	........л......ллл....л.л.лл.л.лл...............
+	........л.........ллл.лл.лл..л.лл...............
+	........ллл...........лллл..л.лл................
+	...........ллл..............л.ллл...............
+	.......л.ллл..ллл..........л.ллл.л.л.л..........
+	..л.л.л.ллллллл..ллл.......л.лл.л.л.л.л.л.л.....
+	.л.л.л.л.л.ллллллл..ллл...л.лл.л.л.л.л.л.л.л....
+	л.л.л.л.л.л.л.ллллллл..лллл.ллл.л.л.л.л.л.л.л...
+	.л.л.л.л.л.л.л.л.ллллллл...ллл.л.л.л.л.л.л.л....
+	..л.л.л.л.л.л.л.л.л.ллллллллл.л.л.л.л.л.л.л.....
+	.......л.л.л.л.л.л.л.л.ллллл.л.л.л.л.л..........
+	............л.л.л.л.л.л.л.л.л.л.л...............
+----------------------------------------------------------------
+File offset: 000C38B4h
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		                
+0020h: ?			00000000h
+0024h: ?			00000000h
+0028h: Some flags?		00000000h
+002Ch: Install program		00000000h, 00000000h
+0030h: Uninstall program	00000000h, 00000000h
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		00000000h, 00000000h
+003Ch: UNICODE name		
+----------------------------------------------------------------
+File offset: 000C39C0h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 00 00 00 00 00 00 00 00 00 00 04 9F FF 	..............џ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000C39E0h
+Data begin
+----------------------------------------------------------------
+0000h: FF F2 BF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џђПџџџџџџџџџџџџџ
+0010h: FF FF FF FF FF FB 00 A0 00 04 9F FF FF FF FF FF 	џџџџџћ. ..џџџџџ
+----------------------------------------------------------------
+File offset: 000C6FA0h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 01 FF FF FF FF FF FF FF FF FF FF FF FF 	....џџџџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000C79E0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+0010h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+----------------------------------------------------------------
+File offset: 000C7A5Ch
+PVA header
+----------------------------------------------------------------
+0000h: PVA signature		PVAPLHEDV20
+000Ch: Header version?		0001h
+003Ah: ?			0001h
+003Ch: Offset to ELF		000000A8h
+0040h: PVA mode			0001h, PV
+0042h: PVA type			0000h, Application
+0046h: ?			0048h
+0048h: Program name		
+0088h: Program version		0100h, 001.000
+008Ah: Library version		0100h, 001.000
+008Ch: ELF length		00007668h
+0090h: Creation year		2002
+0092h:  - month			09
+0093h:  - day			11
+0094h:  - hour			11
+0095h:  - minute		37
+0096h:  - second		10
+0097h: ?			00
+0098h: ?			0001h
+009Ah: Icon height		FFFFh, 
+009Ch: Icon width		FFFFh, 
+009Eh: ?			0000h
+00A0h: Small icon height	FFFFh, 
+00A2h: Small icon width		FFFFh, 
+00A4h: ?			0000h
+00A6h: ?			1200h
+----------------------------------------------------------------
+File offset: 000CC18Ch
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		                
+0020h: ?			00000000h
+0024h: ?			00000000h
+0028h: Some flags?		00000000h
+002Ch: Install program		00000000h, 00000000h
+0030h: Uninstall program	00000000h, 00000000h
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		00000000h, 00000000h
+003Ch: UNICODE name		
+----------------------------------------------------------------
+File offset: 000CF160h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 00 00 00 00 01 00 00 00 01 FF FF FF FF 	............џџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000CFA50h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF FF 00 00 00 01 	џџџџџџџџџџџџ....
+0010h: C0 00 10 00 00 00 00 04 FF FF FF FF 00 00 00 01 	Р.......џџџџ....
+----------------------------------------------------------------
+File offset: 000CFAA4h
+PVA header
+----------------------------------------------------------------
+0000h: PVA signature		PVAPLHEDV20
+000Ch: Header version?		0001h
+003Ah: ?			0001h
+003Ch: Offset to ELF		00000150h
+0040h: PVA mode			0001h, PV
+0042h: PVA type			0000h, Application
+0046h: ?			0048h
+0048h: Program name		
+0088h: Program version		0100h, 001.000
+008Ah: Library version		0100h, 001.000
+008Ch: ELF length		00001BB8h
+0090h: Creation year		2002
+0092h:  - month			09
+0093h:  - day			11
+0094h:  - hour			11
+0095h:  - minute		37
+0096h:  - second		10
+0097h: ?			00
+0098h: ?			0001h
+009Ah: Icon height		001Ch, 28
+009Ch: Icon width		002Dh, 45
+009Eh: ?			0000h
+00A0h: Small icon height	FFFFh, 
+00A2h: Small icon width		FFFFh, 
+00A4h: ?			0000h
+00A6h: ?			1200h
+----------------------------------------------------------------
+00A8h: Icon 28x45
+	..................................ллллл.........
+	.................................л.....лл.......
+	................................л..ллл...л......
+	................................л.лл..л..л......
+	................................л..ллл..лл......
+	....лллл........................л......лл.......
+	..лл....лл.....................л..лллллл........
+	..л..ллл..л...................л..ллллл..........
+	.лл.л..лл.л..................л..лл..............
+	.л..л...л..л.......лл.......л..лл...............
+	.л..л...лл.л....ллл..л.....л..лл................
+	.лл.л....л..лллл......л...л..лл.................
+	..л..л...лллл.........л..л..ллл.................
+	..лл.л...л......лл.....лл..лл..лл...............
+	...ллл..лл.....лл.л....л..лл.....л..............
+	........л.л....ллл.л..л..лл..лл.лл..............
+	.......лл.л....ллллл..л.лл....ллл...............
+	........лл.л....лллл...лллл...л.................
+	........лл.л.....лл.л....лллллл.................
+	.........лл.л....ллл.л....ллллл.л...............
+	.......л.лл.л....лллл.....лл.л.л.л.л.л..........
+	..л.л.л.л.лл.л...лл.....ллл.л.л.л.л.л.л.л.л.....
+	.л.л.л.л.ллл.л.......ллл..лл.л.л.л.л.л.л.л.л....
+	л.л.л.л.л.ллл.л...ллл..лллл.л.л.л.л.л.л.л.л.л...
+	.л.л.л.л.л.лл.лллл..лллллл.л.л.л.л.л.л.л.л.л....
+	..л.л.л.л.л.лл...лллллл.л.л.л.л.л.л.л.л.л.л.....
+	.......л.л.ллллллллл.л.л.л.л.л.л.л.л.л..........
+	............ллллл.л.л.л.л.л.л.л.л...............
+----------------------------------------------------------------
+File offset: 000D09ACh
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		                
+0020h: ?			00000000h
+0024h: ?			00000000h
+0028h: Some flags?		00000000h
+002Ch: Install program		00000000h, 00000000h
+0030h: Uninstall program	00000000h, 00000000h
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		00000000h, 00000000h
+003Ch: UNICODE name		
+----------------------------------------------------------------
+File offset: 000D17A0h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 00 00 00 00 01 00 00 00 01 FF FF FF FF 	............џџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000D1AA0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+0010h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+----------------------------------------------------------------
+File offset: 000D1B0Ch
+PVA header
+----------------------------------------------------------------
+0000h: PVA signature		PVAPLHEDV20
+000Ch: Header version?		0001h
+003Ah: ?			0001h
+003Ch: Offset to ELF		00000150h
+0040h: PVA mode			0005h, Unknown
+0042h: PVA type			0000h, Application
+0046h: ?			0048h
+0048h: Program name		
+0088h: Program version		0100h, 001.000
+008Ah: Library version		0100h, 001.000
+008Ch: ELF length		00037DB0h
+0090h: Creation year		2002
+0092h:  - month			09
+0093h:  - day			11
+0094h:  - hour			11
+0095h:  - minute		37
+0096h:  - second		32
+0097h: ?			00
+0098h: ?			0001h
+009Ah: Icon height		001Ch, 28
+009Ch: Icon width		002Dh, 45
+009Eh: ?			0000h
+00A0h: Small icon height	FFFFh, 
+00A2h: Small icon width		FFFFh, 
+00A4h: ?			0000h
+00A6h: ?			1200h
+----------------------------------------------------------------
+00A8h: Icon 28x45
+	......................лллллл....................
+	...................ллллллллллл..................
+	..................ллллллллллллл.................
+	................лллллл......лллл................
+	...............ллллл.........ллл................
+	..............ллллл..........лллл...............
+	..............лллл........лл..ллл...............
+	.............лллл........лл...ллл...............
+	.............ллл..лл....лл....ллл...............
+	............лллл...лл..лл.....ллл...............
+	............ллл.....лллл.....лллл...............
+	............ллл......лл......ллл................
+	............ллл.............лллл................
+	............ллл.........л..лллл.лллл............
+	............лллл........ллллллл.лллл............
+	.............ллл........лллллл....лл............
+	..........л..ллллл......лллллл...ллл............
+	.........л....ллллллллл.ллллллл.л.лл............
+	........л......ллллллллл.......л.лл.............
+	........ллл......ллллллл......л.лл..............
+	.......лл..ллл...............л.ллл.л.л..........
+	..л.л.л.ллл...ллл...........л.ллл.л.л.л.л.л.....
+	.л.л.л.ллллллл...ллл.......л.ллл.л.л.л.л.л.л....
+	л.л.л.л.л.ллллллл...ллл...л.ллл.л.л.л.л.л.л.л...
+	.л.л.л.л.л.л.ллллллл...ллл.ллл.л.л.л.л.л.л.л....
+	..л.л.л.л.л.л.л.ллллллл...ллл.л.л.л.л.л.л.л.....
+	.......л.л.л.л.л.л.ллллллллл.л.л.л.л.л..........
+	............л.л.л.л.л.ллллл.л.л.л...............
+----------------------------------------------------------------
+File offset: 000F6170h
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		                
+0020h: ?			00000000h
+0024h: ?			00000000h
+0028h: Some flags?		00000000h
+002Ch: Install program		00000000h, 00000000h
+0030h: Uninstall program	00000000h, 00000000h
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		00000000h, 00000000h
+003Ch: UNICODE name		A
+----------------------------------------------------------------
+File offset: 000F83B0h
+Data end
+----------------------------------------------------------------
+0000h: 00 05 00 06 F8 70 20 F8 70 20 00 A0 00 0B FF FF 	....јp јp . ..џџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 000F83D0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FE 80 00 00 10 00 00 02 00 00 00 40 00 00 10 	џў.........@...
+0010h: 00 00 04 00 00 01 80 00 00 10 07 F8 02 00 FF 40 	..........ј..џ@
+----------------------------------------------------------------
+File offset: 00109A00h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 01 FF FF FF FF FF FF FF FF FF FF FF FF 	....џџџџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00109B00h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+0010h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+----------------------------------------------------------------
+File offset: 00109B4Ch
+PVA header
+----------------------------------------------------------------
+0000h: PVA signature		PVAPLHEDV20
+000Ch: Header version?		0001h
+003Ah: ?			0001h
+003Ch: Offset to ELF		000001A0h
+0040h: PVA mode			0001h, PV
+0042h: PVA type			0000h, Application
+0046h: ?			0048h
+0048h: Program name		Pocket Sheet
+0088h: Program version		0100h, 001.000
+008Ah: Library version		0100h, 001.000
+008Ch: ELF length		0002AF94h
+0090h: Creation year		2002
+0092h:  - month			09
+0093h:  - day			11
+0094h:  - hour			11
+0095h:  - minute		37
+0096h:  - second		40
+0097h: ?			00
+0098h: ?			0001h
+009Ah: Icon height		001Ch, 28
+009Ch: Icon width		002Dh, 45
+009Eh: ?			0000h
+00A0h: Small icon height	0014h, 20
+00A2h: Small icon width		001Bh, 27
+00A4h: ?			0000h
+00A6h: ?			1200h
+----------------------------------------------------------------
+00A8h: Icon 28x45
+	................................................
+	........ллллллллллллллллллллллллллллл...........
+	........лллллллллллл.ллллллл.ллллллллл..........
+	........лллллллллллл.ллллллл.ллллллллл..........
+	........лллллллллллл.ллллллл.ллллллллл..........
+	........лллллллллллллллллллллллллллллл..........
+	........ллллл.......................лл..........
+	........ллллл.......л.......л.......лл..........
+	........ллллл.......................лл..........
+	........ллллл.л.л.л.л.л.л.л.л.л.л.л.лл..........
+	........ллллл.......................лл..........
+	........ллллл.......л.......л.......лл..........
+	........ллллл.......................лл..........
+	........ллллл.л.л.л.л.л.л.л.л.л.л.л.лл..........
+	........ллллл.......................лл..........
+	........ллллл.......л.......л.......лл..........
+	........ллллл.......................лл..........
+	........ллллл.л.л.л.л.л.л.л.л.л.л.л.лл..........
+	........ллллл.......................лл..........
+	........ллллл.......л.......л.......лл..........
+	........ллллл.......................лл..........
+	........ллллл.л.л.л.л.л.л.л.л.л.л.л.лл..........
+	........ллллл.......................лл..........
+	........ллллл.......л.......л.......лл..........
+	........ллллл.......................лл..........
+	........лллллллллллллллллллллллллллллл..........
+	.........ллллллллллллллллллллллллллллл..........
+	................................................
+----------------------------------------------------------------
+0150h: Icon 20x27
+	................................
+	..лллллллллллллллллллллл........
+	..ллллллллл.ллллл.ллллллл.......
+	..ллллллллл.ллллл.ллллллл.......
+	..ллллллллл.ллллл.ллллллл.......
+	..ллллллллллллллллллллллл.......
+	..лллл.................лл.......
+	..лллл.....л.....л.....лл.......
+	..лллл.................лл.......
+	..лллл.л.л.л.л.л.л.л.л.лл.......
+	..лллл.................лл.......
+	..лллл.....л.....л.....лл.......
+	..лллл.................лл.......
+	..лллл.л.л.л.л.л.л.л.л.лл.......
+	..лллл.................лл.......
+	..лллл.....л.....л.....лл.......
+	..лллл.................лл.......
+	..ллллллллллллллллллллллл.......
+	...лллллллллллллллллллллл.......
+	................................
+----------------------------------------------------------------
+File offset: 001246D0h
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		                
+0020h: ?			00000000h
+0024h: ?			00000000h
+0028h: Some flags?		00000000h
+002Ch: Install program		00000000h, 00000000h
+0030h: Uninstall program	00000000h, 00000000h
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		00000000h, 00000000h
+003Ch: UNICODE name		
+----------------------------------------------------------------
+File offset: 00134C70h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 01 	................
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00135B40h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF FF 00 00 00 01 	џџџџџџџџџџџџ....
+0010h: C0 00 10 00 00 00 00 04 FF FF FF FF 00 00 00 01 	Р.......џџџџ....
+----------------------------------------------------------------
+File offset: 00135B94h
+PVA header
+----------------------------------------------------------------
+0000h: PVA signature		PVAPLHEDV20
+000Ch: Header version?		0001h
+003Ah: ?			0001h
+003Ch: Offset to ELF		000001A0h
+0040h: PVA mode			0001h, PV
+0042h: PVA type			0000h, Application
+0046h: ?			0048h
+0048h: Program name		
+0088h: Program version		0100h, 001.000
+008Ah: Library version		0100h, 001.000
+008Ch: ELF length		00015888h
+0090h: Creation year		2002
+0092h:  - month			09
+0093h:  - day			11
+0094h:  - hour			11
+0095h:  - minute		37
+0096h:  - second		50
+0097h: ?			00
+0098h: ?			0001h
+009Ah: Icon height		001Ch, 28
+009Ch: Icon width		002Dh, 45
+009Eh: ?			0000h
+00A0h: Small icon height	0014h, 20
+00A2h: Small icon width		001Bh, 27
+00A4h: ?			0000h
+00A6h: ?			1200h
+----------------------------------------------------------------
+00A8h: Icon 28x45
+	.......................лллллллл.................
+	...............л....лллллллллллллл..............
+	...............лл.ллллллллллллллллл.............
+	...............ллллллллл......лллллл............
+	.............л.ллллллл..ллл......лллл...........
+	.............л.ллллл.......л......ллл...........
+	...........л.л.лллллл.....л.лл.....ллл..........
+	..........л..л.......ллл.л..л.л....ллл..........
+	.........л...л.л.ллл....л...л.л.....лл..........
+	........лл...л.л.лллллл.л...л.л.....лл..........
+	........л....л.лллллллл.л...лл......лл..........
+	.......лл....л.лллллллл.л...л.......лл..........
+	.......л.....л....ллллл.л...лл......лл..........
+	......лл.....ллл.....лл.л..л..лл....л...........
+	......лл....л...ллл.....л.л..л.л...лл...........
+	......лл...лллл....ллл..лл..л..л...л............
+	......лл...л...ллл....ллл..л...л..лл............
+	......лл...л.л...лллл.....л....л..л.............
+	......ллл..л.....л...л........л..л..............
+	......ллл..ллл...л.....лллллл...л...............
+	.......ллл....лллл......ллллл......л.л..........
+	..л.л..лллл......ллл..ллллллл.л.л.л.л.л.л.л.....
+	.л.л.л..лллллл......ллллллллл..л.л.л.л.л.л.л....
+	л.л.л.л..ллллллллллллллллл.лл.л.л.л.л.л.л.л.л...
+	.л.л.л.л..лллллллллллллл....л..л.л.л.л.л.л.л....
+	..л.л.л.л....лллллллл...л.л...л.л.л.л.л.л.л.....
+	.......л.л.л...........л.л.л.л.л.л.л.л..........
+	............л.л.л.л.л.л.л.л.л.л.л...............
+----------------------------------------------------------------
+0150h: Icon 20x27
+	.............лллллллл...........
+	.........л.лллллллллллл.........
+	.........ллллл.......ллл........
+	.........ллл...ллл....лл........
+	.........лллл....лл....лл.......
+	..............ллл.л....лл.......
+	....л...л.лл...л..л....лл.......
+	...л....л.лллл.л..л....лл.......
+	...л....л.лллл.л..л....лл.......
+	..л.....л...лл.л..лл...лл.......
+	.лл....л.ллл...л.л.л...л........
+	.лл...ллл...ллллл.л.л.л.........
+	.лл...л..ллл...л.л..л.л.........
+	.лл...л.....лл..л...л...........
+	.лл...ллл..........л............
+	.лл......ллл.лллл.л.............
+	..лл..........ллл...............
+	..ллл.......ллллл...............
+	...лллллллллллл.л...............
+	.....лллллллл...................
+----------------------------------------------------------------
+File offset: 00141C88h
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		                
+0020h: ?			00000000h
+0024h: ?			00000000h
+0028h: Some flags?		00000000h
+002Ch: Install program		00000000h, 00000000h
+0030h: Uninstall program	00000000h, 00000000h
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		00000000h, 00000000h
+003Ch: UNICODE name		
+----------------------------------------------------------------
+File offset: 0014B5B0h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 00 00 00 00 01 00 00 00 01 FF FF FF FF 	............џџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 0014BB90h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+0010h: FF FF FF FF 00 00 00 01 C0 00 10 00 00 00 00 04 	џџџџ....Р.......
+----------------------------------------------------------------
+File offset: 0014BBFCh
+PVA header
+----------------------------------------------------------------
+0000h: PVA signature		PVAPLHEDV20
+000Ch: Header version?		0001h
+003Ah: ?			0001h
+003Ch: Offset to ELF		00000150h
+0040h: PVA mode			0005h, Unknown
+0042h: PVA type			0000h, Application
+0046h: ?			0048h
+0048h: Program name		
+0088h: Program version		0100h, 001.000
+008Ah: Library version		0100h, 001.000
+008Ch: ELF length		0000F768h
+0090h: Creation year		2002
+0092h:  - month			09
+0093h:  - day			11
+0094h:  - hour			11
+0095h:  - minute		37
+0096h:  - second		54
+0097h: ?			00
+0098h: ?			0001h
+009Ah: Icon height		001Ch, 28
+009Ch: Icon width		002Dh, 45
+009Eh: ?			0000h
+00A0h: Small icon height	FFFFh, 
+00A2h: Small icon width		FFFFh, 
+00A4h: ?			0000h
+00A6h: ?			1200h
+----------------------------------------------------------------
+00A8h: Icon 28x45
+	..............ллл...............................
+	.............л...лл.............................
+	............л......л............................
+	............л....л.л............................
+	...........л....л..л............................
+	...........л....л.лл............................
+	..........л....л..л.............................
+	..........л....л.лл.ллл.........................
+	.........л....л..л.л...ллл.ллл..................
+	.........л....л.ллл.......л...ллл...............
+	........л....л..лл.......л..лл...ллл............
+	........л....л.лл.......л..лллллл...ллл.........
+	.......л....л..л.......л..лллллллллл..лл........
+	.......л....л.лл......л..л...лллллл..л.л........
+	......л....л..л......л..лл..л...лл..л..л........
+	......ллл..л.лл.....л..л...лл..л...л..лл........
+	......л..лл..л.....л..лл..л...лл..л..лл.........
+	......ллл...лл....л..л...лл..л...л..лл..........
+	.......лллллл....л..лл..л...лл..л..лл...........
+	.........лллл...л......лл..л...л..лл............
+	.......л.л....ллллл.......лл..л..ллл.л..........
+	..л.л.л.ллллл......ллл.......л..ллл.л.л.л.л.....
+	.л.л.л.л.ллллллл......ллл...л..ллл.л.л.л.л.л....
+	л.л.л.л.л.л.ллллллл......ллл..ллл.л.л.л.л.л.л...
+	.л.л.л.л.л.л.л.ллллллл.......ллл.л.л.л.л.л.л....
+	..л.л.л.л.л.л.л.л.ллллллл...ллл.л.л.л.л.л.л.....
+	.......л.л.л.л.л.л.л.ллллллллл.л.л.л.л..........
+	............л.л.л.л.л.л.ллллл.л.л...............
+----------------------------------------------------------------
+File offset: 001559F4h
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		                
+0020h: ?			00000000h
+0024h: ?			00000000h
+0028h: Some flags?		00000000h
+002Ch: Install program		00000000h, 00000000h
+0030h: Uninstall program	00000000h, 00000000h
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		00000000h, 00000000h
+003Ch: UNICODE name		
+----------------------------------------------------------------
+File offset: 0015B4A0h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 01 00 00 00 01 FF FF FF FF FF FF FF FF 	........џџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 0015BBF0h
+Data begin
+----------------------------------------------------------------
+0000h: 00 00 00 01 C0 00 10 00 00 00 00 04 FF FF FF FF 	....Р.......џџџџ
+0010h: 00 00 00 01 C0 00 10 00 00 00 00 04 FF FF FF FF 	....Р.......џџџџ
+----------------------------------------------------------------
+File offset: 0015BC38h
+PVA header
+----------------------------------------------------------------
+0000h: PVA signature		PVAPLHEDV20
+000Ch: Header version?		0001h
+003Ah: ?			0001h
+003Ch: Offset to ELF		000000A8h
+0040h: PVA mode			0001h, PV
+0042h: PVA type			0000h, Application
+0046h: ?			0048h
+0048h: Program name		
+0088h: Program version		0100h, 001.000
+008Ah: Library version		0100h, 001.000
+008Ch: ELF length		00000E30h
+0090h: Creation year		2002
+0092h:  - month			09
+0093h:  - day			11
+0094h:  - hour			11
+0095h:  - minute		37
+0096h:  - second		54
+0097h: ?			00
+0098h: ?			0001h
+009Ah: Icon height		FFFFh, 
+009Ch: Icon width		FFFFh, 
+009Eh: ?			0000h
+00A0h: Small icon height	FFFFh, 
+00A2h: Small icon width		FFFFh, 
+00A4h: ?			0000h
+00A6h: ?			1200h
+----------------------------------------------------------------
+File offset: 0015C25Ch
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		                
+0020h: ?			00000000h
+0024h: ?			00000000h
+0028h: Some flags?		00000000h
+002Ch: Install program		00000000h, 00000000h
+0030h: Uninstall program	00000000h, 00000000h
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		00000000h, 00000000h
+003Ch: UNICODE name		
+----------------------------------------------------------------
+File offset: 0015CB00h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 01 	................
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 0015CC30h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF 00 00 00 01 C0 00 10 00 	џџџџџџџџ....Р...
+0010h: 00 00 00 04 FF FF FF FF 00 00 00 01 C0 00 10 00 	....џџџџ....Р...
+----------------------------------------------------------------
+File offset: 0015CCB0h
+PVA header
+----------------------------------------------------------------
+0000h: PVA signature		PVAPLHEDV20
+000Ch: Header version?		0001h
+003Ah: ?			0001h
+003Ch: Offset to ELF		000000A8h
+0040h: PVA mode			0001h, PV
+0042h: PVA type			0000h, Application
+0046h: ?			0048h
+0048h: Program name		
+0088h: Program version		0100h, 001.000
+008Ah: Library version		0100h, 001.000
+008Ch: ELF length		00003D0Ch
+0090h: Creation year		2002
+0092h:  - month			09
+0093h:  - day			11
+0094h:  - hour			11
+0095h:  - minute		37
+0096h:  - second		56
+0097h: ?			00
+0098h: ?			0001h
+009Ah: Icon height		FFFFh, 
+009Ch: Icon width		FFFFh, 
+009Eh: ?			0000h
+00A0h: Small icon height	FFFFh, 
+00A2h: Small icon width		FFFFh, 
+00A4h: ?			0000h
+00A6h: ?			1200h
+----------------------------------------------------------------
+File offset: 0015EF1Ch
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		                
+0020h: ?			00000000h
+0024h: ?			00000000h
+0028h: Some flags?		00000000h
+002Ch: Install program		00000000h, 00000000h
+0030h: Uninstall program	00000000h, 00000000h
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		00000000h, 00000000h
+003Ch: UNICODE name		
+----------------------------------------------------------------
+File offset: 00160A60h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 01 FF FF FF FF FF FF FF FF FF FF FF FF 	....џџџџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00160CB0h
+Data begin
+----------------------------------------------------------------
+0000h: 00 00 00 01 C0 00 10 00 00 00 00 04 FF FF FF FF 	....Р.......џџџџ
+0010h: 00 00 00 01 C0 00 10 00 00 00 00 04 FF FF FF FF 	....Р.......џџџџ
+----------------------------------------------------------------
+File offset: 00160CF8h
+PVA header
+----------------------------------------------------------------
+0000h: PVA signature		PVAPLHEDV20
+000Ch: Header version?		0001h
+003Ah: ?			0001h
+003Ch: Offset to ELF		000000A8h
+0040h: PVA mode			0001h, PV
+0042h: PVA type			0002h, Driver
+0046h: ?			0048h
+0048h: Program name		
+0088h: Program version		0100h, 001.000
+008Ah: Library version		0100h, 001.000
+008Ch: ELF length		00002684h
+0090h: Creation year		2002
+0092h:  - month			09
+0093h:  - day			11
+0094h:  - hour			11
+0095h:  - minute		37
+0096h:  - second		58
+0097h: ?			00
+0098h: ?			0001h
+009Ah: Icon height		FFFFh, 
+009Ch: Icon width		FFFFh, 
+009Eh: ?			0000h
+00A0h: Small icon height	FFFFh, 
+00A2h: Small icon width		FFFFh, 
+00A4h: ?			0000h
+00A6h: ?			1200h
+----------------------------------------------------------------
+File offset: 0016277Ch
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		$$ALARMSYS$$    џџџџ
+0020h: ?			FFFFFFFFh
+0024h: ?			00000000h
+0028h: Some flags?		00000005h
+002Ch: Install program		00000000h, 00000000h
+0030h: Uninstall program	00000000h, 00000000h
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		00000000h, 00000000h
+003Ch: UNICODE name		ALARM SYSTEM
+----------------------------------------------------------------
+File offset: 00163420h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 01 FF FF FF FF FF FF FF FF FF FF FF FF 	....џџџџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00163CF0h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF 00 00 00 01 C0 00 10 00 	џџџџџџџџ....Р...
+0010h: 00 00 00 04 FF FF FF FF 00 00 00 01 C0 00 10 00 	....џџџџ....Р...
+----------------------------------------------------------------
+File offset: 00163D50h
+PVA header
+----------------------------------------------------------------
+0000h: PVA signature		PVAPLHEDV20
+000Ch: Header version?		0001h
+003Ah: ?			0001h
+003Ch: Offset to ELF		000000A8h
+0040h: PVA mode			0001h, PV
+0042h: PVA type			0002h, Driver
+0046h: ?			0048h
+0048h: Program name		
+0088h: Program version		0100h, 001.000
+008Ah: Library version		0100h, 001.000
+008Ch: ELF length		00034814h
+0090h: Creation year		2002
+0092h:  - month			07
+0093h:  - day			30
+0094h:  - hour			13
+0095h:  - minute		16
+0096h:  - second		58
+0097h: ?			00
+0098h: ?			0001h
+009Ah: Icon height		FFFFh, 
+009Ch: Icon width		FFFFh, 
+009Eh: ?			0000h
+00A0h: Small icon height	FFFFh, 
+00A2h: Small icon width		FFFFh, 
+00A4h: ?			0000h
+00A6h: ?			1200h
+----------------------------------------------------------------
+File offset: 00189350h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF 	............џџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00189470h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF FF FF FF FF 00 00 00 00 	џџџџџџџџџџџџ....
+0010h: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 	................
+----------------------------------------------------------------
+File offset: 0018D924h
+PVA C_binaryinfo section
+----------------------------------------------------------------
+0000h: Signature		#PVOSAPL
+0009h: Header version?		01
+000Ah: ?			0000h
+000Ch: Signature?		Z000
+0010h: ASCII name		PVLibDriver     џџџџ
+0020h: ?			FFFFFFFFh
+0024h: ?			00000000h
+0028h: Some flags?		00000011h
+002Ch: Install program		00000000h, 00000000h
+0030h: Uninstall program	00000000h, 00000000h
+0034h: Application entry	00000000h, 00000000h
+0038h: Driver entry		00000000h, 00000000h
+003Ch: UNICODE name		PV LIBRARY
+----------------------------------------------------------------
+File offset: 00198600h
+Data end
+----------------------------------------------------------------
+0000h: 00 00 00 01 FF FF FF FF FF FF FF FF FF FF FF FF 	....џџџџџџџџџџџџ
+0010h: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 	џџџџџџџџџџџџџџџџ
+----------------------------------------------------------------
+File offset: 00198D40h
+Data begin
+----------------------------------------------------------------
+0000h: FF FF FF FF FF FF FF FF 00 00 00 01 C0 00 10 00 	џџџџџџџџ....Р...
+0010h: 00 00 00 04 FF FF FF FF 00 00 00 01 C0 00 10 00 	....џџџџ....Р...
