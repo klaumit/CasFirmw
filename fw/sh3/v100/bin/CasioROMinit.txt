@@ -1,0 +1,26 @@
+----------------------------------------------------------------
+File offset: 00000000h
+Data begin
+----------------------------------------------------------------
+0000h: C1 F4 BB 46 BC E1 D7 35 BD 23 82 4B F6 A1 2C 54 	Áô»F¼á×5½#‚Kö¡,T
+0010h: 96 BF 6F 1E 0C 34 62 13 FE 25 96 76 4D F5 78 A0 	–¿o..4b.þ%–vMõx 
+----------------------------------------------------------------
+File offset: 00004200h
+BIOS vectors
+----------------------------------------------------------------
+000Ch: Function's table 00	0CD6566Ah, 00000000h
+001Ch: Function's table 01	4DEB533Dh, 00000000h
+002Ch: Function's table 02	A4677172h, 18657372h
+003Ch: Function's table 03	66483C9Ah, 00000000h
+004Ch: Function's table 04	9F25D988h, 1323DB88h
+005Ch: Function's table 05	7D087254h, 00000000h
+006Ch: Function's table 06	6981AC15h, 00000000h
+007Ch: Function's table 07	95C5D841h, 09C3DA41h
+008Ch: Function's table 08	027D92E7h, 00000000h
+009Ch: Function's table 09	FEFD23A2h, 72FB25A2h
+00ACh: Function's table 0A	E6F61D69h, 5AF41F69h
+00BCh: Function's table 0B	2EFE096Ah, 00000000h
+00CCh: Function's table 0C	1CB8F656h, 00000000h
+00DCh: Function's table 0D	98F481C2h, 0CF283C2h
+00ECh: Function's table 0E	ACE73F4Ah, 20E5414Ah
+00FCh: Function's table 0F	7E0C6693h, 00000000h
