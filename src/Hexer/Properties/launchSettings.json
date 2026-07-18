@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "noNulls": {
+      "commandName": "Project",
+      "commandLineArgs": "--noNulls -i dict.xxd"
+    }
+  }
+}
