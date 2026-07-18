@@ -11,5 +11,8 @@ namespace Hexer.Core
 
         [Option('i', "input", HelpText = "Set input path.")]
         public string? Input { get; set; }
+        
+        [Option('o', "output", HelpText = "Set output path.")]
+        public string? Output { get; set; }
     }
 }

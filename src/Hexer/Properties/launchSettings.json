@@ -2,7 +2,7 @@
   "profiles": {
     "noNulls": {
       "commandName": "Project",
-      "commandLineArgs": "--noNulls -i bin/Debug/net10.0/dict.xxd"
+      "commandLineArgs": "--noNulls -i bin/Debug/net10.0/dict.xxd -o dict.bin"
     }
   }
 }
