@@ -21,13 +21,17 @@ namespace Hexer.Core
 
                 var enc = Encoding.UTF8;
                 var lines = File.ReadLines(file, enc);
-                foreach (var line in HexReader.Read(lines).Take(5))
+                foreach (var line in HexReader.Read(lines))
                 {
                     if (string.IsNullOrWhiteSpace(line.Hex))
                         continue;
-                    Console.WriteLine(line);
+                    if (line.Txt.Contains("CASIOPVOS200U") || line.Txt.Contains("PVOSAPL"))
+                    {
+                        Console.WriteLine($" {line}");
+                    }
                 }
             }
+
             Console.WriteLine("Done.");
         }
     }
