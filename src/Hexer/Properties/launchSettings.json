@@ -2,7 +2,7 @@
   "profiles": {
     "findAddr": {
       "commandName": "Project",
-      "commandLineArgs": "--findAddr -i ../../x"
+      "commandLineArgs": "--findAddr -i ../../fw -o addr.json"
     },
     "noNulls": {
       "commandName": "Project",
