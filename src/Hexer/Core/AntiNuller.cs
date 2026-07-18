@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Linq;
 using System.Text;
 
 namespace Hexer.Core
@@ -15,6 +16,10 @@ namespace Hexer.Core
 
             var enc = Encoding.UTF8;
             var lines = File.ReadLines(inputFile, enc);
+            foreach (var line in lines.Take(10))
+            {
+                Console.WriteLine("'" + line + "'");
+            }
 
             Console.WriteLine("Done.");
         }
