@@ -8,6 +8,9 @@ namespace Hexer.Core
     {
         [Option('n', "noNulls", HelpText = "Write binary without nulls.")]
         public bool NoNulls { get; set; }
+        
+        [Option('f', "findAddr", HelpText = "Find some binary addresses.")]
+        public bool FindAddr { get; set; }
 
         [Option('i', "input", HelpText = "Set input path.")]
         public string? Input { get; set; }

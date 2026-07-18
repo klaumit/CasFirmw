@@ -10,6 +10,11 @@ namespace Hexer
             var parser = Parser.Default;
             parser.ParseArguments<Options>(args).WithParsed(o =>
             {
+                if (o.FindAddr)
+                {
+                    OffFinder.Run(o);
+                    return;
+                }
                 if (o.NoNulls)
                 {
                     AntiNuller.Run(o);
