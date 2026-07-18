@@ -16,7 +16,7 @@ namespace Hexer.Core
 
             var enc = Encoding.UTF8;
             var lines = File.ReadLines(inputFile, enc);
-            foreach (var line in lines.Take(10))
+            foreach (var line in HexReader.Read(lines).Take(10))
             {
                 Console.WriteLine("'" + line + "'");
             }
