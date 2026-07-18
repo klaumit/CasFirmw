@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Linq;
 using System.Text;
 
 namespace Hexer.Core
@@ -20,7 +21,7 @@ namespace Hexer.Core
             var lines = File.ReadLines(inputFile, enc);
             using var off = File.Create(outputFile);
             long count = 0;
-            foreach (var line in HexReader.Read(lines))
+            foreach (var line in lines.Read())
             {
                 var bytes = line.Raw;
                 // Console.WriteLine($"        {line.Adr} ({line.Off}) --> {bytes.Length} bytes");
