@@ -1,3 +1,4 @@
+using System;
 using System.Globalization;
 
 namespace Hexer.Tools
@@ -8,6 +9,13 @@ namespace Hexer.Tools
         {
             var num = uint.Parse(txt, NumberStyles.HexNumber);
             return num;
+        }
+
+        public static byte[] ParseArray(string hex)
+        {
+            var txt = hex.Replace(" ", "");
+            var arr = Convert.FromHexString(txt);
+            return arr;
         }
     }
 }
