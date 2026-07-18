@@ -1,5 +1,7 @@
 using System;
 using System.IO;
+using System.Linq;
+using System.Text;
 
 namespace Hexer.Core
 {
@@ -16,8 +18,16 @@ namespace Hexer.Core
             foreach (var file in files)
             {
                 Console.WriteLine($" * {file}");
-            }
 
+                var enc = Encoding.UTF8;
+                var lines = File.ReadLines(file, enc);
+                foreach (var line in HexReader.Read(lines).Take(5))
+                {
+                    if (string.IsNullOrWhiteSpace(line.Hex))
+                        continue;
+                    Console.WriteLine(line);
+                }
+            }
             Console.WriteLine("Done.");
         }
     }
