@@ -427,5 +427,9 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Custom
 /src/.idea/
 /src/Hexer/*.bin
+/src/Hexer/Texts/*.json
+/fw/sh3/**/*.xxd
