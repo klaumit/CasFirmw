@@ -21,10 +21,10 @@ namespace Hexer.Core
             var lines = File.ReadLines(inputFile, enc);
             using var off = File.Create(outputFile);
             long count = 0;
-            foreach (var line in HexReader.Read(lines).Take(10))
+            foreach (var line in HexReader.Read(lines))
             {
                 var bytes = line.Raw;
-                Console.WriteLine($"        {line.Adr} ({line.Off}) --> {bytes.Length} bytes");
+                // Console.WriteLine($"        {line.Adr} ({line.Off}) --> {bytes.Length} bytes");
                 off.Write(bytes);
                 count += bytes.Length;
             }
