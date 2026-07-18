@@ -1,1 +1,12 @@
-﻿Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace Hexer
+{
+    internal static class Program
+    {
+        private static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
