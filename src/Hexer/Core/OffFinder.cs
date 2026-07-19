@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using Hexer.Tools;
 
 namespace Hexer.Core
 {
@@ -39,9 +40,14 @@ namespace Hexer.Core
             }
         }
 
-        private static string ToHex(this IEnumerable<uint> items)
+        private static string[] ToHex(this IEnumerable<uint> items)
         {
-            return string.Join(", ", items.Select(i => i.ToString("x8")));
+            return items.Select(i => i.ToString("x8")).ToArray();
+        }
+
+        private static string ToStr(this IEnumerable<string> items)
+        {
+            return string.Join(", ", items);
         }
 
         public static void Run(Options o)
@@ -50,6 +56,7 @@ namespace Hexer.Core
             var outputFile = Path.GetFullPath(o.Output!);
             Console.WriteLine("Reading binary files, finding offsets...");
 
+            var dict = new SortedDictionary<string, object>();
             const SearchOption so = SearchOption.AllDirectories;
             var files = Directory.EnumerateFiles(inputDir, "*.xxd", so);
             foreach (var file in files.Take(1))
@@ -57,18 +64,28 @@ namespace Hexer.Core
                 Console.WriteLine($" * {file}");
 
                 var binIdx = FindBytes(file, "CASIOPVOS200U"u8.ToArray()).ToHex();
-                Console.WriteLine($"    => BIN: {binIdx}");
+                Console.WriteLine($"    => BIN: {binIdx.ToStr()}");
 
                 var aplIdx = FindBytes(file, "PVOSAPL"u8.ToArray()).ToHex();
-                Console.WriteLine($"    => APL: {aplIdx}");
+                Console.WriteLine($"    => APL: {aplIdx.ToStr()}");
 
                 var pvaIdx = FindBytes(file, "PVAPLHEDV20"u8.ToArray()).ToHex();
-                Console.WriteLine($"    => PVA: {pvaIdx}");
+                Console.WriteLine($"    => PVA: {pvaIdx.ToStr()}");
 
                 var rldIdx = FindBytes(file, [0x7f, 0x45, 0x4c, 0x46, 0x01, 0x02, 0x01, 0x00]).ToHex();
-                Console.WriteLine($"    => RLD: {rldIdx}");
+                Console.WriteLine($"    => RLD: {rldIdx.ToStr()}");
+
+                var key = Path.GetFileNameWithoutExtension(file);
+                var vals = binIdx.Select(x => (a: x, b: "bin"))
+                    .Concat(aplIdx.Select(x => (a: x, b: "apl")))
+                    .Concat(pvaIdx.Select(x => (a: x, b: "pva")))
+                    .Concat(rldIdx.Select(x => (a: x, b: "rld")))
+                    .OrderBy(x => x.a)
+                    .ToDictionary(k => k.a, v => v.b);
+                dict[key] = vals;
             }
 
+            JsonExt.Write(outputFile, dict);
             Console.WriteLine("Done.");
         }
     }
