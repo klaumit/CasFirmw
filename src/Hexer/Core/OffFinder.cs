@@ -87,11 +87,64 @@ namespace Hexer.Core
                 var rldIdx = FindBytes(file, [0x7f, 0x45, 0x4c, 0x46, 0x01, 0x02, 0x01, 0x00]).ToHex();
                 Console.WriteLine($"    => RLD: {rldIdx.ToStr()}");
 
+                var numIdx = FindBytes(file, [0x31, 0x32, 0x33, 0x34, 0x35, 0x36, 0x37, 0x38, 0x39, 0x30, 0xf1])
+                    .ToHex();
+                Console.WriteLine($"    => NUM: {numIdx.ToStr()}");
+
+                var extIdx = FindBytes(file, ".PVA\0"u8.ToArray()).ToHex();
+                Console.WriteLine($"    => EXT: {extIdx.ToStr()}");
+
+                var bepIdx = FindBytes(file, "<<  BEEP  >>"u8.ToArray()).ToHex();
+                Console.WriteLine($"    => BEP: {bepIdx.ToStr()}");
+
+                var bifIdx = FindBytes(file, "_binaryinfo"u8.ToArray()).ToHex();
+                Console.WriteLine($"    => BIF: {bifIdx.ToStr()}");
+
+                var bsrIdx = FindBytes(file, "BSrl"u8.ToArray()).ToHex();
+                Console.WriteLine($"    => BSR: {bsrIdx.ToStr()}");
+
+                var busIdx = FindBytes(file, "BUsb"u8.ToArray()).ToHex();
+                Console.WriteLine($"    => BUS: {busIdx.ToStr()}");
+
+                var bnaIdx = FindBytes(file, "BUSINESS NAVIGATOR"u8.ToArray()).ToHex();
+                Console.WriteLine($"    => BNA: {bnaIdx.ToStr()}");
+
+                var cpfIdx = FindBytes(file, "CASIOPVFILE"u8.ToArray()).ToHex();
+                Console.WriteLine($"    => CPF: {cpfIdx.ToStr()}");
+
+                var cpiIdx = FindBytes(file, "CASIO PV Internal"u8.ToArray()).ToHex();
+                Console.WriteLine($"    => CPI: {cpiIdx.ToStr()}");
+
+                var cssIdx = FindBytes(file, "CASIOSUBSYS"u8.ToArray()).ToHex();
+                Console.WriteLine($"    => CSS: {cssIdx.ToStr()}");
+
+                var pvsIdx = FindBytes(file, "PV-S1600"u8.ToArray()).ToHex();
+                Console.WriteLine($"    => PVS: {pvsIdx.ToStr()}");
+
+                var vldIdx = FindBytes(file, "VALIDAREA"u8.ToArray()).ToHex();
+                Console.WriteLine($"    => VLD: {vldIdx.ToStr()}");
+
+                var z00Idx = FindBytes(file, "Z000ExtKeyDriver"u8.ToArray()).ToHex();
+                Console.WriteLine($"    => Z00: {z00Idx.ToStr()}");
+
                 var key = Path.GetFileNameWithoutExtension(file);
                 var vals = binIdx.Select((x, i) => (a: x, b: $"bin_{i + 1:D2}"))
                     .Concat(aplIdx.Select((x, i) => (a: x, b: $"apl_{i + 1:D2}")))
                     .Concat(pvaIdx.Select((x, i) => (a: x, b: $"pva_{i + 0:D2}")))
                     .Concat(rldIdx.Select((x, i) => (a: x, b: $"rld_{i + 1:D2}")))
+                    .Concat(numIdx.Select((x, i) => (a: x, b: $"num_{i + 1:D2}")))
+                    .Concat(extIdx.Select((x, i) => (a: x, b: $"ext_{i + 1:D2}")))
+                    .Concat(bepIdx.Select((x, i) => (a: x, b: $"bep_{i + 1:D2}")))
+                    .Concat(bifIdx.Select((x, i) => (a: x, b: $"bif_{i + 1:D2}")))
+                    .Concat(bsrIdx.Select((x, i) => (a: x, b: $"bsr_{i + 1:D2}")))
+                    .Concat(busIdx.Select((x, i) => (a: x, b: $"bus_{i + 1:D2}")))
+                    .Concat(bnaIdx.Select((x, i) => (a: x, b: $"bna_{i + 1:D2}")))
+                    .Concat(cpfIdx.Select((x, i) => (a: x, b: $"cpf_{i + 1:D2}")))
+                    .Concat(cpiIdx.Select((x, i) => (a: x, b: $"cpi_{i + 1:D2}")))
+                    .Concat(cssIdx.Select((x, i) => (a: x, b: $"css_{i + 1:D2}")))
+                    .Concat(pvsIdx.Select((x, i) => (a: x, b: $"pvs_{i + 1:D2}")))
+                    .Concat(vldIdx.Select((x, i) => (a: x, b: $"vld_{i + 1:D2}")))
+                    .Concat(z00Idx.Select((x, i) => (a: x, b: $"z00_{i + 1:D2}")))
                     .OrderBy(x => x.a)
                     .ToDictionary(k => k.a, v => v.b);
 
