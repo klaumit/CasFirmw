@@ -71,7 +71,7 @@ namespace Hexer.Core
 
             const SearchOption so = SearchOption.AllDirectories;
             var files = Directory.EnumerateFiles(inputDir, "*.xxd", so);
-            foreach (var file in files)
+            foreach (var file in files.OrderBy(f => f))
             {
                 Console.WriteLine($" * {file}");
 
