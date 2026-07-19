@@ -97,6 +97,8 @@ namespace Hexer.Core
 
                 FindDiffs(vals);
                 const string end = ".json";
+                if (vals.Count < 1)
+                    continue;
                 JsonExt.Write($"{outputFile.Replace(end, "")}_{key}{end}", vals);
             }
 
