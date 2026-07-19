@@ -76,10 +76,10 @@ namespace Hexer.Core
                 Console.WriteLine($"    => RLD: {rldIdx.ToStr()}");
 
                 var key = Path.GetFileNameWithoutExtension(file);
-                var vals = binIdx.Select(x => (a: x, b: "bin"))
-                    .Concat(aplIdx.Select(x => (a: x, b: "apl")))
-                    .Concat(pvaIdx.Select(x => (a: x, b: "pva")))
-                    .Concat(rldIdx.Select(x => (a: x, b: "rld")))
+                var vals = binIdx.Select((x, i) => (a: x, b: $"bin_{i + 1:D2}"))
+                    .Concat(aplIdx.Select((x, i) => (a: x, b: $"apl_{i + 1:D2}")))
+                    .Concat(pvaIdx.Select((x, i) => (a: x, b: $"pva_{i + 0:D2}")))
+                    .Concat(rldIdx.Select((x, i) => (a: x, b: $"rld_{i + 1:D2}")))
                     .OrderBy(x => x.a)
                     .ToDictionary(k => k.a, v => v.b);
                 dict[key] = vals;
