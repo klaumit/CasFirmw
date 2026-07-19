@@ -50,16 +50,28 @@ namespace Hexer.Core
             return string.Join(", ", items);
         }
 
+        private static void FindDiffs(IDictionary<string, string> dict)
+        {
+            var lastKey = "0";
+            foreach (var (key, val) in dict)
+            {
+                var k1 = TextExt.ParseUInt(key);
+                var k2 = TextExt.ParseUInt(lastKey);
+                var len = k1 - k2;
+                dict[key] = $"{val}|+{len}";
+                lastKey = key;
+            }
+        }
+
         public static void Run(Options o)
         {
             var inputDir = Path.GetFullPath(o.Input!);
             var outputFile = Path.GetFullPath(o.Output!);
             Console.WriteLine("Reading binary files, finding offsets...");
 
-            var dict = new SortedDictionary<string, object>();
             const SearchOption so = SearchOption.AllDirectories;
             var files = Directory.EnumerateFiles(inputDir, "*.xxd", so);
-            foreach (var file in files.Take(1))
+            foreach (var file in files)
             {
                 Console.WriteLine($" * {file}");
 
@@ -82,10 +94,12 @@ namespace Hexer.Core
                     .Concat(rldIdx.Select((x, i) => (a: x, b: $"rld_{i + 1:D2}")))
                     .OrderBy(x => x.a)
                     .ToDictionary(k => k.a, v => v.b);
-                dict[key] = vals;
+
+                FindDiffs(vals);
+                const string end = ".json";
+                JsonExt.Write($"{outputFile.Replace(end, "")}_{key}{end}", vals);
             }
 
-            JsonExt.Write(outputFile, dict);
             Console.WriteLine("Done.");
         }
     }
