@@ -434,3 +434,4 @@ FodyWeavers.xsd
 /src/Hexer/Texts/*.json
 /fw/sh3/**/*.xxd
 *.info
+/fw/sh3/mine/
