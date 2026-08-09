@@ -3,21 +3,14 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Hexer.Tools;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using Newtonsoft.Json;
-using D = System.IO.Directory;
 
 namespace Hexer.Core
 {
     public static class SizeFinder
     {
-        private static IEnumerable<string> ListBinFiles(string inputDir)
+        private static IEnumerable<string> ListBinFiles(string folder)
         {
-            var files = FileExt.FindFiles(inputDir);
+            var files = FileExt.FindFiles(folder);
             files.TryGetValue(".pva", out var pvaFiles);
             files.TryGetValue(".sys", out var sysFiles);
             return sysFiles?.Concat(pvaFiles ?? []) ?? [];
@@ -37,7 +30,10 @@ namespace Hexer.Core
                 var local = FileExt.GetLocal(file, inputDir);
                 Console.WriteLine($" * {local}");
 
+                var pvaBytes = Consts.PvaMarkB;
+                var rldBytes = Consts.RldMarkB;
 
+                
             }
 
             Console.WriteLine("Done.");

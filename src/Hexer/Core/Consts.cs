@@ -1,3 +1,5 @@
+using System;
+
 namespace Hexer.Core
 {
     public static class Consts
@@ -9,5 +11,8 @@ namespace Hexer.Core
 
         public const string RldMark = "7F454C460102010000000000000000000" +
                                       "001002A00000001000000000000000000";
+
+        public static byte[] PvaMarkB => Convert.FromHexString(PvaMark);
+        public static byte[] RldMarkB => Convert.FromHexString(RldMark);
     }
 }
