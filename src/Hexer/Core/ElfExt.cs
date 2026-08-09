@@ -36,5 +36,27 @@ namespace Hexer.Core
                 last = found;
             }
         }
+
+        private static uint ReadU32Be(byte[] data, int elfStart, int fieldOffset)
+        {
+            var p = elfStart + fieldOffset;
+            return (uint)(data[p] << 24 | data[p + 1] << 16 | data[p + 2] << 8 | data[p + 3]);
+        }
+
+        private static ushort ReadU16Be(byte[] data, int elfStart, int fieldOffset)
+        {
+            var p = elfStart + fieldOffset;
+            return (ushort)(data[p] << 8 | data[p + 1]);
+        }
+
+        public static long GetElfFileSize(byte[] data, int elfStart)
+        {
+            var elfShOff = ReadU32Be(data, elfStart, 32);
+            var elfShEntSize = ReadU16Be(data, elfStart, 46);
+            var elfShNum = ReadU16Be(data, elfStart, 48);
+
+            var totalSize = elfShOff + (long)elfShEntSize * elfShNum;
+            return totalSize;
+        }
     }
 }
