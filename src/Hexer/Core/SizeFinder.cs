@@ -25,7 +25,8 @@ namespace Hexer.Core
             var binFiles = ListBinFiles(inputDir);
             foreach (var file in binFiles)
             {
-                Console.WriteLine($" * {file}");
+                var local = FileExt.GetLocal(file, inputDir);
+                Console.WriteLine($" * {local}");
             }
 
             Console.WriteLine("Done.");

@@ -19,5 +19,10 @@ namespace Hexer.Tools
             }
             return dict;
         }
+
+        public static string GetLocal(string file, string folder)
+        {
+            return file.Replace(folder, "").Trim(Path.DirectorySeparatorChar);
+        }
     }
 }
