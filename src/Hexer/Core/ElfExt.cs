@@ -58,5 +58,12 @@ namespace Hexer.Core
             var totalSize = elfShOff + (long)elfShEntSize * elfShNum;
             return totalSize;
         }
+
+        public static (long pvaSize, long elfSize) GetSizes(this Found anchor, byte[] array)
+        {
+            var elfSize = GetElfFileSize(array, anchor.R);
+            var pvaSize = anchor.D + elfSize;
+            return (pvaSize, elfSize);
+        }
     }
 }
