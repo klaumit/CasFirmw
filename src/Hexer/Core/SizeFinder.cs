@@ -24,17 +24,23 @@ namespace Hexer.Core
             Console.WriteLine($"Output => {outputFile}");
             Console.WriteLine("Reading binary files, finding sizes...");
 
+            var fileSizes = new SortedDictionary<int, SortedSet<string>>();
             var binFiles = ListBinFiles(inputDir);
+            var pvaBytes = Consts.PvaMarkB;
+            var rldBytes = Consts.RldMarkB;
             foreach (var file in binFiles.OrderBy(x => x))
             {
+                var array = File.ReadAllBytes(file);
+                var pvaIdx = array.IndicesOf(pvaBytes).ToArray();
+                var rldIdx = array.IndicesOf(rldBytes).ToArray();
+                if (!(pvaIdx.Length >= 1 && rldIdx.Length >= 1))
+                    continue;
                 var local = FileExt.GetLocal(file, inputDir);
                 Console.WriteLine($" * {local}");
 
-                var pvaBytes = Consts.PvaMarkB;
-                var rldBytes = Consts.RldMarkB;
 
-                
             }
+            JsonExt.Write(outputFile, fileSizes);
 
             Console.WriteLine("Done.");
         }
