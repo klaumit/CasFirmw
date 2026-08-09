@@ -12,6 +12,9 @@ namespace Hexer.Core
         [Option('f', "findAddr", HelpText = "Find some binary addresses.")]
         public bool FindAddr { get; set; }
 
+        [Option('s', "findSize", HelpText = "Find some binary sizes.")]
+        public bool FindSize { get; set; }
+
         [Option('i', "input", HelpText = "Set input path.")]
         public string? Input { get; set; }
         
