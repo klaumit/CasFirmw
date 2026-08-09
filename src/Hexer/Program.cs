@@ -20,6 +20,11 @@ namespace Hexer
                     SizeFinder.Run(o);
                     return;
                 }
+                if (o.ExtractIt)
+                {
+                    BinExtract.Run(o);
+                    return;
+                }
                 if (o.NoNulls)
                 {
                     AntiNuller.Run(o);
