@@ -36,9 +36,11 @@ namespace Hexer.Core
                 if (!(pvaIdx.Length >= 1 && rldIdx.Length >= 1))
                     continue;
                 var local = FileExt.GetLocal(file, inputDir);
-                Console.WriteLine($" * {local}");
-
-
+                var anchors = ElfExt.FindAnchors(pvaIdx, rldIdx).ToArray();
+                if (anchors.Length < 1)
+                    continue;
+                var hSize = ByteSizeLib.ByteSize.FromBytes(array.Length);
+                Console.WriteLine($" * {local,-26} {hSize,9}");
             }
             JsonExt.Write(outputFile, fileSizes);
 
