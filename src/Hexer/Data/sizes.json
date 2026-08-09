@@ -1,1 +1,22 @@
-﻿{}
+﻿{
+  "3004": "DEDRIVER.SYS",
+  "3800": "ALART.PVA",
+  "7432": "PASS.PVA",
+  "10028": "RMDRIVER.SYS",
+  "12388": "RESET.PVA",
+  "15796": "RESET.PVA",
+  "30480": "MENU.PVA",
+  "32896": "DRAW.PVA",
+  "34240": "MEMO.PVA",
+  "38788": "CLK.PVA",
+  "38792": "DBV.PVA",
+  "40816": "GAME.PVA",
+  "43628": "CONV.PVA",
+  "47372": "EXPENSE.PVA",
+  "63672": "TEL.PVA",
+  "88616": "SYNC.PVA",
+  "88672": "SYNC.PVA",
+  "176436": "SPRD.PVA",
+  "215228": "IBDRIVER.SYS",
+  "229120": "SCH.PVA"
+}

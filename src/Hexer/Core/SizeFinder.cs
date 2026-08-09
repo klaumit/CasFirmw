@@ -41,9 +41,19 @@ namespace Hexer.Core
                     continue;
                 var hSize = ByteSizeLib.ByteSize.FromBytes(array.Length);
                 Console.WriteLine($" * {local,-26} {hSize,9}");
+                if (anchors.Length != 1)
+                    continue;
+                var fSize = array.Length;
+                if (!fileSizes.TryGetValue(fSize, out var set))
+                    fileSizes[fSize] = set = new SortedSet<string>();
+                var val = Path.GetFileName(file);
+                if (val.StartsWith("00"))
+                    continue;
+                set.Add(val);
             }
-            JsonExt.Write(outputFile, fileSizes);
 
+            JsonExt.Write(outputFile, fileSizes.ToDictionary(k =>
+                k.Key, v => v.Value.Single()));
             Console.WriteLine("Done.");
         }
     }
