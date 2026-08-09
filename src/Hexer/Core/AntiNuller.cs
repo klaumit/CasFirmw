@@ -14,7 +14,7 @@ namespace Hexer.Core
 
             var localName = Path.GetFileName(inputFile);
             Console.WriteLine($" * {localName}");
-            Console.WriteLine("    => " + outputFile);
+            Console.WriteLine($"    => {outputFile}");
 
             var enc = Encoding.UTF8;
             var lines = File.ReadLines(inputFile, enc);
