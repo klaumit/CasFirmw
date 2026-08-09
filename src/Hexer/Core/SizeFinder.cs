@@ -23,7 +23,7 @@ namespace Hexer.Core
             Console.WriteLine("Reading binary files, finding sizes...");
 
             var binFiles = ListBinFiles(inputDir);
-            foreach (var file in binFiles)
+            foreach (var file in binFiles.OrderBy(x => x))
             {
                 var local = FileExt.GetLocal(file, inputDir);
                 Console.WriteLine($" * {local}");
