@@ -6,7 +6,7 @@
     },
     "findSize": {
       "commandName": "Project",
-      "commandLineArgs": "--findSize -i ../../fw -o sizes.json"
+      "commandLineArgs": "--findSize -i ../../fw/sh3 -o Data/sizes.json",
     },
     "noNulls": {
       "commandName": "Project",

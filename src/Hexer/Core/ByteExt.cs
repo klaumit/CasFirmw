@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 // ReSharper disable ConditionIsAlwaysTrueOrFalseAccordingToNullableAPIContract
 
@@ -40,6 +42,43 @@ namespace Hexer.Core
                     return i;
             }
             return -1;
+        }
+
+        public static string ToHex(this byte?[] bytes)
+        {
+            var bld = new StringBuilder();
+            foreach (var bit in bytes)
+            {
+                if (bit == null)
+                    bld.Append($"__");
+                else
+                    bld.Append($"{bit:X2}");
+            }
+            return bld.ToString();
+        }
+
+        public static byte?[] ToBytes(this IDictionary<int, ISet<byte>> dict)
+        {
+            var max = dict.Count == 0 ? 0 : dict.Keys.Max() + 1;
+            var array = new byte?[max];
+            for (var i = 0; i < array.Length; i++)
+            {
+                var bits = dict[i];
+                byte? bit = bits.Count == 1 ? bits.Single() : null;
+                array[i] = bit;
+            }
+            return array;
+        }
+
+        public static void WriteTo(this IDictionary<int, ISet<byte>> dict, byte[] array)
+        {
+            for (var i = 0; i < array.Length; i++)
+            {
+                var bit = array[i];
+                if (!dict.TryGetValue(i, out var set))
+                    dict[i] = set = new SortedSet<byte>();
+                set.Add(bit);
+            }
         }
     }
 }
