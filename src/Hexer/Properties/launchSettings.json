@@ -1,5 +1,9 @@
 {
   "profiles": {
+    "extractIt": {
+      "commandName": "Project",
+      "commandLineArgs": "--extract -i ../../fw/sh3 -j Data/sizes.json -o Data/osmap.json"
+    },
     "findAddr": {
       "commandName": "Project",
       "commandLineArgs": "--findAddr -i ../../fw -o addr.json"

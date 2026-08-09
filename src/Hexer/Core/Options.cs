@@ -15,6 +15,12 @@ namespace Hexer.Core
         [Option('s', "findSize", HelpText = "Find some binary sizes.")]
         public bool FindSize { get; set; }
 
+        [Option('e', "extract", HelpText = "Extract the binary objs.")]
+        public bool ExtractIt { get; set; }
+
+        [Option('j', "include", HelpText = "Set include path.")]
+        public string? Include { get; set; }
+
         [Option('i', "input", HelpText = "Set input path.")]
         public string? Input { get; set; }
         
