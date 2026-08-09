@@ -1,1 +1,48 @@
-﻿{}
+﻿{
+  "v100/bin/CasioNANDinit.bin": {
+    "Size": 1800712,
+    "Apps": {
+       "1": {"Offset":  414900,"Header": 168,"Size":   3004,"Name": "DEDRIVER.SYS" },
+       "2": {"Offset":  526264,"Header": 168,"Size":  38788,"Name": "CLK.PVA"      },
+       "3": {"Offset":  567328,"Header": 336,"Size":  43628,"Name": "CONV.PVA"     },
+       "4": {"Offset":  612472,"Header": 416,"Size":  38792,"Name": "DBV.PVA"      },
+       "5": {"Offset":  653536,"Header": 336,"Size":  32896,"Name": "DRAW.PVA"     },
+       "6": {"Offset":  690520,"Header": 336,"Size":  47372,"Name": "EXPENSE.PVA"  },
+       "7": {"Offset":  739708,"Header": 336,"Size":  40816,"Name": "GAME.PVA"     },
+       "8": {"Offset":  780772,"Header": 336,"Size":  34240,"Name": "MEMO.PVA"     },
+       "9": {"Offset":  817756,"Header": 168,"Size":  30480,"Name": "MENU.PVA"     },
+      "10": {"Offset":  850596,"Header": 336,"Size":   7432,"Name": "PASS.PVA"     },
+      "11": {"Offset":  858892,"Header": 336,"Size": 229120,"Name": "SCH.PVA"      },
+      "12": {"Offset": 1088332,"Header": 416,"Size": 176436,"Name": "SPRD.PVA"     },
+      "13": {"Offset": 1268628,"Header": 416,"Size":  88616,"Name": "SYNC.PVA"     },
+      "14": {"Offset": 1358844,"Header": 336,"Size":  63672,"Name": "TEL.PVA"      },
+      "15": {"Offset": 1424440,"Header": 168,"Size":   3800,"Name": "ALART.PVA"    },
+      "16": {"Offset": 1428656,"Header": 168,"Size":  15796,"Name": "RESET.PVA"    },
+      "17": {"Offset": 1445112,"Header": 168,"Size":  10028,"Name": "RMDRIVER.SYS" },
+      "18": {"Offset": 1457488,"Header": 168,"Size": 215228,"Name": "IBDRIVER.SYS" }
+    }
+  },
+  "v103/bin/PVS1600UP103.bin": {
+    "Size": 3866624,
+    "Apps": {
+       "1": {"Offset":  704512,"Header": 168,"Size":   3004,"Name": "DEDRIVER.SYS" },
+       "2": {"Offset": 1015808,"Header": 168,"Size":  38788,"Name": "CLK.PVA"      },
+       "3": {"Offset": 1081344,"Header": 336,"Size":  43628,"Name": "CONV.PVA"     },
+       "4": {"Offset": 1146880,"Header": 416,"Size":  38792,"Name": "DBV.PVA"      },
+       "5": {"Offset": 1212416,"Header": 336,"Size":  32896,"Name": "DRAW.PVA"     },
+       "6": {"Offset": 1277952,"Header": 336,"Size":  47372,"Name": "EXPENSE.PVA"  },
+       "7": {"Offset": 1343488,"Header": 336,"Size":  40816,"Name": "GAME.PVA"     },
+       "8": {"Offset": 1409024,"Header": 336,"Size":  34240,"Name": "MEMO.PVA"     },
+       "9": {"Offset": 1474560,"Header": 168,"Size":  30480,"Name": "MENU.PVA"     },
+      "10": {"Offset": 1523712,"Header": 336,"Size":   7432,"Name": "PASS.PVA"     },
+      "11": {"Offset": 1556480,"Header": 336,"Size": 229120,"Name": "SCH.PVA"      },
+      "12": {"Offset": 1802240,"Header": 416,"Size": 176436,"Name": "SPRD.PVA"     },
+      "13": {"Offset": 1998848,"Header": 416,"Size":  88672,"Name": "SYNC.PVA"     },
+      "14": {"Offset": 2113536,"Header": 336,"Size":  63672,"Name": "TEL.PVA"      },
+      "15": {"Offset": 2195456,"Header": 168,"Size":   3800,"Name": "ALART.PVA"    },
+      "16": {"Offset": 2228224,"Header": 168,"Size":  12388,"Name": "RESET.PVA"    },
+      "17": {"Offset": 2260992,"Header": 168,"Size":  10028,"Name": "RMDRIVER.SYS" },
+      "18": {"Offset": 2293760,"Header": 168,"Size": 215228,"Name": "IBDRIVER.SYS" }
+    }
+  }
+}

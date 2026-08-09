@@ -1,6 +1,7 @@
 using System.IO;
 using System.Text;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 
 namespace Hexer.Tools
 {
@@ -22,7 +23,9 @@ namespace Hexer.Tools
         {
             return new JsonSerializerSettings
             {
-                Formatting = Formatting.Indented
+                Formatting = Formatting.Indented,
+                NullValueHandling = NullValueHandling.Ignore,
+                Converters = { new StringEnumConverter() }
             };
         }
     }

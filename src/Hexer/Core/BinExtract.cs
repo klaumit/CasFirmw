@@ -9,6 +9,20 @@ namespace Hexer.Core
 {
     public static class BinExtract
     {
+        public sealed class AppInfo
+        {
+            public int Offset { get; set; }
+            public int Header { get; set; }
+            public int Size { get; set; }
+            public string? Name { get; set; }
+        }
+
+        public sealed class BinInfo
+        {
+            public int Size { get; set; }
+            public SortedDictionary<int, AppInfo>? Apps { get; set; }
+        }
+
         private static IEnumerable<string> ListBinFiles(string folder)
         {
             var files = FileExt.FindFiles(folder);
@@ -27,7 +41,7 @@ namespace Hexer.Core
             Console.WriteLine("Extracting binary blobs...");
 
             var fileSizes = JsonExt.Read<SortedDictionary<int, string>>(included)!;
-            var results = new SortedDictionary<int, SortedSet<string>>();
+            var results = new SortedDictionary<string, BinInfo>();
             var binFiles = ListBinFiles(inputDir);
             var pvaBytes = Consts.PvaMarkB;
             var rldBytes = Consts.RldMarkB;
@@ -44,12 +58,19 @@ namespace Hexer.Core
                     continue;
                 var hSize = ByteSize.FromBytes(array.Length);
                 Console.WriteLine($" * {local,-27} {hSize,9}");
+                var obj = new SortedDictionary<int, AppInfo>();
                 foreach (var anchor in anchors)
                 {
                     var (pvaSize, elfSize) = anchor.GetSizes(array);
                     fileSizes.TryGetValue((int)pvaSize, out var pvaName);
                     Console.WriteLine($"    * {anchor,-37} --> {elfSize:D6} --> {pvaSize:D6} '{pvaName}'");
+                    var ai = new AppInfo
+                    {
+                        Offset = anchor.P, Header = anchor.D, Size = (int)pvaSize, Name = pvaName
+                    };
+                    obj[anchor.I] = ai;
                 }
+                results[local] = new BinInfo { Size = array.Length, Apps = obj };
             }
 
             JsonExt.Write(outputFile, results);
