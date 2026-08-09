@@ -15,6 +15,11 @@ namespace Hexer
                     OffFinder.Run(o);
                     return;
                 }
+                if (o.FindSize)
+                {
+                    SizeFinder.Run(o);
+                    return;
+                }
                 if (o.NoNulls)
                 {
                     AntiNuller.Run(o);
