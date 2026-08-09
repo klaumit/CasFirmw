@@ -27,7 +27,7 @@ namespace Hexer.Core
         {
             var inputDir = Path.GetFullPath(o.Input!);
             var outputFile = Path.GetFullPath(o.Output!);
-            Console.WriteLine($"Input  => {inputDir}");
+            Console.WriteLine($" Input => {inputDir}");
             Console.WriteLine($"Output => {outputFile}");
             Console.WriteLine("Reading binary files, finding sizes...");
 
