@@ -2,11 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using Hexer.Tools;
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using ByteSizeLib;
-using Newtonsoft.Json;
 
 namespace Hexer.Core
 {
@@ -29,7 +26,7 @@ namespace Hexer.Core
             Console.WriteLine($"Output => {outputFile}");
             Console.WriteLine("Extracting binary blobs...");
 
-            var fileSizes = JsonExt.Read<SortedDictionary<int, string>>(included);
+            var fileSizes = JsonExt.Read<SortedDictionary<int, string>>(included)!;
             var results = new SortedDictionary<int, SortedSet<string>>();
             var binFiles = ListBinFiles(inputDir);
             var pvaBytes = Consts.PvaMarkB;
@@ -47,6 +44,12 @@ namespace Hexer.Core
                     continue;
                 var hSize = ByteSize.FromBytes(array.Length);
                 Console.WriteLine($" * {local,-27} {hSize,9}");
+                foreach (var anchor in anchors)
+                {
+                    var (pvaSize, elfSize) = anchor.GetSizes(array);
+                    fileSizes.TryGetValue((int)pvaSize, out var pvaName);
+                    Console.WriteLine($"    * {anchor,-37} --> {elfSize:D6} --> {pvaSize:D6} '{pvaName}'");
+                }
             }
 
             JsonExt.Write(outputFile, results);
