@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using ByteSizeLib;
 using Hexer.Tools;
 
 namespace Hexer.Core
@@ -39,7 +40,7 @@ namespace Hexer.Core
                 var anchors = ElfExt.FindAnchors(pvaIdx, rldIdx).ToArray();
                 if (anchors.Length < 1)
                     continue;
-                var hSize = ByteSizeLib.ByteSize.FromBytes(array.Length);
+                var hSize = ByteSize.FromBytes(array.Length);
                 Console.WriteLine($" * {local,-26} {hSize,9}");
                 if (anchors.Length != 1)
                     continue;
