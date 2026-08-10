@@ -24,5 +24,13 @@ namespace Hexer.Tools
         {
             return file.Replace(folder, "").Trim(Path.DirectorySeparatorChar);
         }
+
+        public static string CreateDir(string path)
+        {
+            var full = Path.GetFullPath(path);
+            if (!Directory.Exists(full))
+                Directory.CreateDirectory(full);
+            return full;
+        }
     }
 }
