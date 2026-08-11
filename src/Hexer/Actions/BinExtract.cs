@@ -96,15 +96,31 @@ namespace Hexer.Actions
                 var obj = new SortedDictionary<int, AI>();
                 foreach (var section in sections)
                 {
-                    var (pvaSize, elfSize) = anchor.GetSizes(array);
-                    fileSizes.TryGetValue((int)pvaSize, out var pvaName);
-                    Console.WriteLine($"    * {anchor,-37} --> {elfSize:D6} --> {pvaSize:D6} '{pvaName}'");
-                    var ai = new AI
+                    var off = section[0].Adr;
+                    var array = section.SelectMany(s => s.Raw).ToArray();
+                    var pvaIdx = array.IndicesOf(pvaBytes).ToArray();
+                    var rldIdx = array.IndicesOf(rldBytes).ToArray();
+                    if (!(pvaIdx.Length >= 1 && rldIdx.Length >= 1))
+                        continue;
+                    var anchors = ElfExt.FindAnchors(pvaIdx, rldIdx).ToArray();
+                    if (anchors.Length < 1)
+                        continue;
+                    var localName = Path.GetFileNameWithoutExtension(local);
+                    var localDir = FileExt.CreateDir(Path.Combine(outputDir, localName));
+                    var aSize = ByteSize.FromBytes(array.Length);
+                    Console.WriteLine($"   * {off:x8} ({aSize})");
+                    foreach (var anchor in anchors)
                     {
-                        Offset = anchor.P, Header = anchor.D, Size = (int)pvaSize, Name = pvaName
-                    };
-                    obj[anchor.I] = ai;
-                    ExtractFiles(ai, pvaSize, elfSize, array, anchor, localDir);
+                        var (pvaSize, elfSize) = anchor.GetSizes(array);
+                        fileSizes.TryGetValue((int)pvaSize, out var pvaName);
+                        Console.WriteLine($"     * {anchor,-37} --> {elfSize:D6} --> {pvaSize:D6} '{pvaName}'");
+                        var ai = new AI
+                        {
+                            Offset = (int)(off + anchor.P), Header = anchor.D, Size = (int)pvaSize, Name = pvaName
+                        };
+                        obj[anchor.I] = ai;
+                        ExtractFiles(ai, pvaSize, elfSize, array, anchor, localDir);
+                    }
                 }
                 results[local] = new BinInfo { Size = (int)fi.Length, Apps = obj };
             }
