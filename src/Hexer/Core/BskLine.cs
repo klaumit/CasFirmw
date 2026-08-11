@@ -6,7 +6,7 @@ namespace Hexer.Core
     {
         public override string ToString()
         {
-            return $"{Adr}: {TextExt.ToHex(Raw)}  ";
+            return $"{Adr:x8}: {TextExt.ToHex(Raw)}  ";
         }
     }
 }

@@ -22,11 +22,12 @@ namespace Hexer.Core
         {
             using var stream = File.OpenRead(file);
             var i = 0;
-            var adr = 0;
+            long adr = 0;
             while (stream.ReadSome(16) is { } bytes)
             {
                 if (i++ >= 3) break;
-                Console.WriteLine($" {bytes.Length} | {adr:x8} ");
+                var bl = new BskLine((uint)adr, bytes);
+                Console.WriteLine($" '{bl}' ");
                 adr += bytes.Length;
             }
         }
@@ -43,7 +44,8 @@ namespace Hexer.Core
                 var two = tmp[1].Split("  ", 2);
                 var hex = two[0].Replace(" ", "").Trim();
                 var bytes = Convert.FromHexString(hex);
-                Console.WriteLine($" {bytes.Length} | {adr:x8} ");
+                var bl = new BskLine(adr, bytes);
+                Console.WriteLine($" '{bl}' ");
             }
         }
     }
