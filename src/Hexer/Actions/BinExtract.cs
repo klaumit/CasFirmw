@@ -37,9 +37,38 @@ namespace Hexer.Actions
             var files = FileExt.FindFiles(folder);
             files.TryGetValue(".bin", out var binFiles);
             files.TryGetValue(".xxd", out var xxdFiles);
-            return binFiles?.Concat(xxdFiles??[]) ?? [];
+            return binFiles?.Concat(xxdFiles ?? []) ?? [];
         }
-        
+
+        private static IEnumerable<BskLine[]> SplitSections(IEnumerable<BskLine> lines)
+        {
+            var list = new List<BskLine>();
+            uint? lastIdx = null;
+            foreach (var line in lines)
+            {
+                var diff = line.Adr - lastIdx;
+                if (diff == 0)
+                {
+                    // Doubled address!
+                }
+                else if (diff is null or 16)
+                {
+                    // Sequential
+                    list.Add(line);
+                }
+                else
+                {
+                    // New section!
+                    if (list.Count >= 1) yield return list.ToArray();
+                    list.Clear();
+                    list.Add(line);
+                }
+                lastIdx = line.Adr;
+            }
+            if (list.Count >= 1) yield return list.ToArray();
+            list.Clear();
+        }
+
         public static void Run(Options o)
         {
             var inputDir = Path.GetFullPath(o.Input!);
@@ -50,7 +79,7 @@ namespace Hexer.Actions
             Console.WriteLine($" Extra => {included}");
             Console.WriteLine($"Output => {outputFile}");
             Console.WriteLine("Extracting binary blobs...");
-            
+
             var fileSizes = JsonExt.Read<SortedDictionary<int, string>>(included)!;
             var results = new SortedDictionary<string, BinInfo>();
             var binFiles = ListBinFiles(inputDir);
