@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using ByteSizeLib;
+using Hexer.Config;
+using Hexer.Core;
 using Hexer.Tools;
 
-namespace Hexer.Core
+namespace Hexer.Actions
 {
     public static class SizeFinder
     {

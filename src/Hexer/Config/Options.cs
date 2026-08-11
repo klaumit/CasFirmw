@@ -2,7 +2,7 @@ using CommandLine;
 
 // ReSharper disable ClassNeverInstantiated.Global
 
-namespace Hexer.Core
+namespace Hexer.Config
 {
     public class Options
     {

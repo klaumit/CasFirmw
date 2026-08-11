@@ -1,5 +1,6 @@
 ﻿using CommandLine;
-using Hexer.Core;
+using Hexer.Actions;
+using Hexer.Config;
 
 namespace Hexer
 {

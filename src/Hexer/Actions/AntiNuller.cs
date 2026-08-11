@@ -1,8 +1,10 @@
 using System;
 using System.IO;
 using System.Text;
+using Hexer.Config;
+using Hexer.Core;
 
-namespace Hexer.Core
+namespace Hexer.Actions
 {
     public static class AntiNuller
     {

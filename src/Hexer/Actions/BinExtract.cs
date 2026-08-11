@@ -1,13 +1,15 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Hexer.Tools;
 using System.Linq;
 using ByteSizeLib;
+using Hexer.Config;
+using Hexer.Core;
+using Hexer.Tools;
 using F = Hexer.Core.Found;
 using AI = Hexer.Core.AppInfo;
 
-namespace Hexer.Core
+namespace Hexer.Actions
 {
     public static class BinExtract
     {
