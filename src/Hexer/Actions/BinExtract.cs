@@ -50,7 +50,7 @@ namespace Hexer.Actions
             Console.WriteLine($" Extra => {included}");
             Console.WriteLine($"Output => {outputFile}");
             Console.WriteLine("Extracting binary blobs...");
-
+            
             var fileSizes = JsonExt.Read<SortedDictionary<int, string>>(included)!;
             var results = new SortedDictionary<string, BinInfo>();
             var binFiles = ListBinFiles(inputDir);
