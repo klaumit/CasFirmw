@@ -1,5 +1,6 @@
 using System;
 using System.Globalization;
+using System.Linq;
 
 namespace Hexer.Tools
 {
@@ -16,6 +17,11 @@ namespace Hexer.Tools
             var txt = hex.Replace(" ", "");
             var arr = Convert.FromHexString(txt);
             return arr;
+        }
+
+        public static string ToHex(byte[] array, int got)
+        {
+            return string.Join(" ", array.Take(got).Chunk(2).Select(Convert.ToHexStringLower));
         }
     }
 }

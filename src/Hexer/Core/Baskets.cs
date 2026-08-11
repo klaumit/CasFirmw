@@ -1,6 +1,6 @@
 using System;
+using System.Globalization;
 using System.IO;
-using System.Linq;
 
 namespace Hexer.Core
 {
@@ -22,14 +22,13 @@ namespace Hexer.Core
             using var reader = File.OpenRead(file);
             var i = 0;
             var adr = 0;
-            var buffer = new byte[16];
-            while (reader.Read(buffer) is var got and >= 1)
+            var bytes = new byte[16];
+            while (reader.Read(bytes) is var got and >= 1)
             {
                 if (i++ >= 3) break;
-                var hex = string.Join(" ",
-                    buffer.Take(got).Chunk(2).Select(Convert.ToHexStringLower)
-                );
-                Console.WriteLine($"{adr:x8}: {hex}");
+                if (bytes.Length != got)
+                    Array.Resize(ref bytes, got);
+                Console.WriteLine($" {bytes.Length} | {adr:x8} ");
                 adr += got;
             }
         }
@@ -41,7 +40,12 @@ namespace Hexer.Core
             while (reader.ReadLine() is { } line)
             {
                 if (i++ >= 3) break;
-                Console.WriteLine(line);
+                var tmp = line.Split(':', 2);
+                var adr = uint.Parse(tmp[0], NumberStyles.HexNumber);
+                var two = tmp[1].Split("  ", 2);
+                var hex = two[0].Replace(" ", "").Trim();
+                var bytes = Convert.FromHexString(hex);
+                Console.WriteLine($" {bytes.Length} | {adr:x8} ");
             }
         }
     }

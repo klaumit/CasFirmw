@@ -36,9 +36,10 @@ namespace Hexer.Actions
         {
             var files = FileExt.FindFiles(folder);
             files.TryGetValue(".bin", out var binFiles);
-            return binFiles ?? [];
+            files.TryGetValue(".xxd", out var xxdFiles);
+            return binFiles?.Concat(xxdFiles??[]) ?? [];
         }
-
+        
         public static void Run(Options o)
         {
             var inputDir = Path.GetFullPath(o.Input!);
