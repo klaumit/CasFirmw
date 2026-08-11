@@ -87,21 +87,14 @@ namespace Hexer.Actions
             var rldBytes = Consts.RldMarkB;
             foreach (var file in binFiles.OrderBy(x => x))
             {
-                var array = File.ReadAllBytes(file);
-                var pvaIdx = array.IndicesOf(pvaBytes).ToArray();
-                var rldIdx = array.IndicesOf(rldBytes).ToArray();
-                if (!(pvaIdx.Length >= 1 && rldIdx.Length >= 1))
-                    continue;
+                var fi = new FileInfo(file);
+                var hSize = ByteSize.FromBytes(fi.Length);
                 var local = FileExt.GetLocal(file, inputDir);
-                var anchors = ElfExt.FindAnchors(pvaIdx, rldIdx).ToArray();
-                if (anchors.Length < 1)
-                    continue;
-                var localName = Path.GetFileNameWithoutExtension(local);
-                var localDir = FileExt.CreateDir(Path.Combine(outputDir, localName));
-                var hSize = ByteSize.FromBytes(array.Length);
-                Console.WriteLine($" * {local,-27} {hSize,9}");
+                Console.WriteLine($" * {local,-28} {hSize,9}");
+                var lines = Baskets.Read(file);
+                var sections = SplitSections(lines);
                 var obj = new SortedDictionary<int, AI>();
-                foreach (var anchor in anchors)
+                foreach (var section in sections)
                 {
                     var (pvaSize, elfSize) = anchor.GetSizes(array);
                     fileSizes.TryGetValue((int)pvaSize, out var pvaName);
@@ -113,7 +106,7 @@ namespace Hexer.Actions
                     obj[anchor.I] = ai;
                     ExtractFiles(ai, pvaSize, elfSize, array, anchor, localDir);
                 }
-                results[local] = new BinInfo { Size = array.Length, Apps = obj };
+                results[local] = new BinInfo { Size = (int)fi.Length, Apps = obj };
             }
 
             JsonExt.Write(outputFile, results);
