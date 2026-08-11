@@ -4,27 +4,13 @@ using System.IO;
 using Hexer.Tools;
 using System.Linq;
 using ByteSizeLib;
-using F = Hexer.Core.ElfExt.Found;
-using AI = Hexer.Core.BinExtract.AppInfo;
+using F = Hexer.Core.Found;
+using AI = Hexer.Core.AppInfo;
 
 namespace Hexer.Core
 {
     public static class BinExtract
     {
-        public sealed class AppInfo
-        {
-            public int Offset { get; set; }
-            public int Header { get; set; }
-            public int Size { get; set; }
-            public string? Name { get; set; }
-        }
-
-        public sealed class BinInfo
-        {
-            public int Size { get; set; }
-            public SortedDictionary<int, AI>? Apps { get; set; }
-        }
-
         private static void ExtractFiles(AI ai, long pvaSize, long elfSize, byte[] array, F anchor, string dir)
         {
             var name = ai.Name!;
