@@ -19,9 +19,10 @@ namespace Hexer.Tools
             return arr;
         }
 
-        public static string ToHex(byte[] array, int got)
+        public static string ToHex(byte[] array, int? got = null)
         {
-            return string.Join(" ", array.Take(got).Chunk(2).Select(Convert.ToHexStringLower));
+            return string.Join(" ", array.Take(got ?? array.Length)
+                .Chunk(2).Select(Convert.ToHexStringLower));
         }
     }
 }

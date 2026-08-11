@@ -1,6 +1,7 @@
 using System;
 using System.Globalization;
 using System.IO;
+using Hexer.Tools;
 
 namespace Hexer.Core
 {
@@ -19,17 +20,14 @@ namespace Hexer.Core
 
         private static void ReadBin(string file)
         {
-            using var reader = File.OpenRead(file);
+            using var stream = File.OpenRead(file);
             var i = 0;
             var adr = 0;
-            var bytes = new byte[16];
-            while (reader.Read(bytes) is var got and >= 1)
+            while (stream.ReadSome(16) is { } bytes)
             {
                 if (i++ >= 3) break;
-                if (bytes.Length != got)
-                    Array.Resize(ref bytes, got);
                 Console.WriteLine($" {bytes.Length} | {adr:x8} ");
-                adr += got;
+                adr += bytes.Length;
             }
         }
 
