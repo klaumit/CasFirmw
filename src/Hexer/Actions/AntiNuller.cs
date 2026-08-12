@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Text;
+using ByteSizeLib;
 using Hexer.Config;
 using Hexer.Core;
 
@@ -30,7 +31,7 @@ namespace Hexer.Actions
                 count += bytes.Length;
             }
 
-            var cTxt = ByteSizeLib.ByteSize.FromBytes(count);
+            var cTxt = ByteSize.FromBytes(count);
             Console.WriteLine($"    --> {cTxt} written!");
             off.Flush();
             Console.WriteLine("Done.");

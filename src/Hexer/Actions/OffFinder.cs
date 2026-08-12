@@ -1,70 +1,14 @@
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using Hexer.Config;
-using Hexer.Core;
 using Hexer.Tools;
+using static Hexer.Wraps.OffWrap;
 
 namespace Hexer.Actions
 {
     public static class OffFinder
     {
-        private static IEnumerable<HexByte> ReadFile(string file)
-        {
-            var enc = Encoding.UTF8;
-            var lines = File.ReadLines(file, enc);
-            return lines.Read().Read();
-        }
-
-        private static IEnumerable<uint> FindBytes(string file, byte[] mask)
-        {
-            var i = 0;
-            uint start = 0;
-            foreach (var line in ReadFile(file))
-            {
-                if (line.Raw == mask[i])
-                {
-                    if (i == 0)
-                        start = line.Off;
-                    i++;
-                    if (i >= mask.Length)
-                    {
-                        yield return start;
-                        i = 0;
-                    }
-                }
-                else
-                {
-                    i = 0;
-                }
-            }
-        }
-
-        private static string[] ToHex(this IEnumerable<uint> items)
-        {
-            return items.Select(i => i.ToString("x8")).ToArray();
-        }
-
-        private static string ToStr(this IEnumerable<string> items)
-        {
-            return string.Join(", ", items);
-        }
-
-        private static void FindDiffs(IDictionary<string, string> dict)
-        {
-            var lastKey = "0";
-            foreach (var (key, val) in dict)
-            {
-                var k1 = TextExt.ParseUInt(key);
-                var k2 = TextExt.ParseUInt(lastKey);
-                var len = k1 - k2;
-                dict[key] = $"{val}|+{len}";
-                lastKey = key;
-            }
-        }
-
         public static void Run(Options o)
         {
             var inputDir = Path.GetFullPath(o.Input!);
