@@ -1,6 +1,11 @@
 namespace Hexer.Core
 {
-    public sealed class AppInfo
+    public interface INameable
+    {
+        string? Name { get; }
+    }
+
+    public sealed class AppInfo : INameable
     {
         public int Offset { get; set; }
         public int Header { get; set; }

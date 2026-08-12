@@ -72,7 +72,7 @@ namespace Hexer.Actions
                             Offset = (int)(off + anchor.P), Header = anchor.D, Size = (int)pvaSize, Name = pvaName
                         };
                         obj[anchor.I] = ai;
-                        ExtractFiles(ai, pvaSize, elfSize, array, anchor, localDir);
+                        ExtractFiles(ai, es, array, anchor, localDir, true);
                     }
                 }
                 results[local] = new BinInfo { Size = (int)fi.Length, Apps = obj };

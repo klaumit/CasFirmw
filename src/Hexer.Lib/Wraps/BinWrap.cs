@@ -4,28 +4,31 @@ using System;
 using System.IO;
 using Hexer.Tools;
 using F = Hexer.Core.Found;
-using AI = Hexer.Core.AppInfo;
+using AI = Hexer.Core.INameable;
 
 namespace Hexer.Wraps
 {
     public static class BinWrap
     {
-        public static void ExtractFiles(AI ai, long pvaSize, long elfSize, byte[] array, F anchor, string dir)
+        public static void ExtractFiles(AI ai, ElfSize e, byte[] array, F anchor, string dir, bool hash)
         {
             var name = ai.Name!;
             var exExt = Path.GetExtension(name).Trim('.').ToLower();
 
             var exDir = FileExt.CreateDir(Path.Combine(dir, exExt));
-            var exFile = Path.Combine(exDir, name);
-            var pB = new byte[pvaSize];
+            var pB = new byte[e.pvaSize];
             Array.Copy(array, anchor.P, pB, 0, pB.Length);
+            var exName = name;
+            if (hash) exName = $"{pB.GetSha256()}_{name}";
+            var exFile = Path.Combine(exDir, exName);
             File.WriteAllBytes(exFile, pB);
 
             var erDir = FileExt.CreateDir(Path.Combine(dir, "rld"));
             var erName = $"{Path.GetFileNameWithoutExtension(name)}.RLD";
-            var erFile = Path.Combine(erDir, erName);
-            var pR = new byte[elfSize];
+            var pR = new byte[e.elfSize];
             Array.Copy(array, anchor.R, pR, 0, pR.Length);
+            if (hash) erName = $"{pR.GetSha256()}_{erName}";
+            var erFile = Path.Combine(erDir, erName);
             File.WriteAllBytes(erFile, pR);
         }
 
